@@ -1,0 +1,6 @@
+Project Name,Package Name,Type Name,Testability Smell,Cause of the Smell
+sharebike,club.newtech.qbike.intention.domain.service,IntentionService,Hard-wired Dependency,The tool detected the smell in this class because the class creates objects of concrete classes and uses them. Following concrete classes are instantiated and used: club.newtech.qbike.intention.domain.core.root.Intention
+sharebike,club.newtech.qbike.intention.domain.service,IntentionService,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 14
+sharebike,club.newtech.qbike.order.domain.service,FsmService,Global State,The tool detected the smell in this class because the class declares global variables. The detected global variables are: UUID_KEY
+sharebike,club.newtech.qbike.order.domain.service,OrderService,Global State,The tool detected the smell in this class because the class declares global variables. The detected global variables are: UUID_KEY
+sharebike,club.newtech.qbike.order.domain.service,OrderService,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 8
