@@ -1,0 +1,742 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.entities,Category,hashCode,Magic Number,The method contains a magic number: 31,98
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.entities,Category,hashCode,Magic Number,The method contains a magic number: 32,98
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.entities,ImageSize,parseImageSize,Long Statement,The length of the statement "throw new IllegalArgumentException("Malformed string supplied. Does not contain exactly two size " + "values divided by \"" + IMAGE_SIZE_DIVIDER + "\".");" is 154.,102
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.entities,ImageSize,parseImageSize,Magic Number,The method contains a magic number: 2,102
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.entities,ImageSize,hashCode,Magic Number,The method contains a magic number: 31,134
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.entities,Order,hashCode,Magic Number,The method contains a magic number: 31,258
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.entities,Order,hashCode,Magic Number,The method contains a magic number: 32,258
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.entities,Order,hashCode,Magic Number,The method contains a magic number: 32,258
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.entities,OrderItem,hashCode,Magic Number,The method contains a magic number: 31,152
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.entities,OrderItem,hashCode,Magic Number,The method contains a magic number: 32,152
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.entities,OrderItem,hashCode,Magic Number,The method contains a magic number: 32,152
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.entities,OrderItem,hashCode,Magic Number,The method contains a magic number: 32,152
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.entities,Product,hashCode,Magic Number,The method contains a magic number: 31,153
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.entities,Product,hashCode,Magic Number,The method contains a magic number: 32,153
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.entities,Product,hashCode,Magic Number,The method contains a magic number: 32,153
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.entities,User,hashCode,Magic Number,The method contains a magic number: 31,151
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.entities,User,hashCode,Magic Number,The method contains a magic number: 32,151
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.entities,User,equals,Complex Method,Cyclomatic complexity of the method is 8,169
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.auth.rest,AuthCartRest,addProductToCart,Magic Number,The method contains a magic number: 408,45
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.auth.rest,AuthCartRest,addProductToCart,Magic Number,The method contains a magic number: 404,45
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.auth.rest,AuthUserActionsRest,placeOrder,Long Parameter List,The method has 8 parameters. ,50
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.auth.rest,AuthUserActionsRest,placeOrder,Magic Number,The method contains a magic number: 408,50
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.auth.rest,AuthUserActionsRest,placeOrder,Magic Number,The method contains a magic number: 404,50
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.auth.rest,AuthUserActionsRest,placeOrder,Magic Number,The method contains a magic number: 408,50
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.auth.rest,AuthUserActionsRest,placeOrder,Magic Number,The method contains a magic number: 404,50
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.auth.rest,AuthUserActionsRest,login,Magic Number,The method contains a magic number: 408,120
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.auth.security,ShaSecurityProvider,getSha512,Magic Number,The method contains a magic number: 0xff,61
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.auth.security,ShaSecurityProvider,getSha512,Magic Number,The method contains a magic number: 0x100,61
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.auth.security,ShaSecurityProvider,getSha512,Magic Number,The method contains a magic number: 16,61
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.auth.security,ShaSecurityProviderTest,test,Magic Number,The method contains a magic number: 123456L,16
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.auth.security,ShaSecurityProviderTest,test,Magic Number,The method contains a magic number: 13L,16
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.cache,AbstractCacheTestInit,initialize,Magic Number,The method contains a magic number: 2,22
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.cache,AbstractCacheTestInit,initialize,Magic Number,The method contains a magic number: 3,22
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.cache,AbstractCacheTestInit,initialize,Magic Number,The method contains a magic number: 2,22
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.cache,AbstractCacheTestInit,initialize,Magic Number,The method contains a magic number: 3,22
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.cache,DummyData,hashCode,Magic Number,The method contains a magic number: 31,25
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.cache,DummyData,hashCode,Magic Number,The method contains a magic number: 32,25
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.cache,TestAbstractCache,initialize,Magic Number,The method contains a magic number: 1000L,40
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.cache,TestAbstractCache,initialize,Magic Number,The method contains a magic number: 2000L,40
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.cache,TestAbstractCache,initialize,Magic Number,The method contains a magic number: 2L,40
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.cache,TestAbstractCache,initialize,Magic Number,The method contains a magic number: 3000L,40
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.cache,TestAbstractCache,initialize,Magic Number,The method contains a magic number: 3L,40
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.cache,TestAbstractCache,initialize,Magic Number,The method contains a magic number: 4000L,40
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.cache,TestAbstractCache,initialize,Magic Number,The method contains a magic number: 4L,40
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.cache,TestAbstractCache,initialize,Magic Number,The method contains a magic number: 1000L,40
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.cache,TestAbstractCache,initialize,Magic Number,The method contains a magic number: 1000L,40
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.cache,TestAbstractCache,initialize,Magic Number,The method contains a magic number: 1000L,40
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.cache,TestAbstractCache,initialize,Magic Number,The method contains a magic number: 3000L,40
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.cache,TestAbstractCache,initialize,Magic Number,The method contains a magic number: 2,40
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.cache,TestAbstractCache,initialize,Magic Number,The method contains a magic number: 3,40
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.cache,TestAbstractCache,initialize,Magic Number,The method contains a magic number: 2,40
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.cache,TestAbstractCache,initialize,Magic Number,The method contains a magic number: 3,40
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.cache,TestAbstractCache,testGetMaxCacheSize,Magic Number,The method contains a magic number: 1234567890,106
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.cache,TestAbstractCache,testGetMaxCacheSize,Magic Number,The method contains a magic number: 1234567890,106
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.cache,TestAbstractCache,testHasStorageFor,Magic Number,The method contains a magic number: 6500,138
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.cache,TestAbstractCache,testUncacheData,Magic Number,The method contains a magic number: 20000,158
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.cache,TestAbstractCache,testUncacheData,Magic Number,The method contains a magic number: 2000,158
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.cache,TestAbstractCache,testDataIsCachable,Long Statement,The length of the statement "uut=new AbstractCacheWrapper(entries`storageAll`20000`predicate -> predicate.getId() == c1.getId() || predicate.getId() == c3.getId());" is 135.,199
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.cache,TestAbstractCache,testDataIsCachable,Magic Number,The method contains a magic number: 20000,199
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.cache,TestAbstractCache,testDataIsCachable,Magic Number,The method contains a magic number: 20000,199
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.cache,TestAbstractCache,testDataIsCachable,Magic Number,The method contains a magic number: 20000,199
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.cache,TestAbstractCache,testDataIsInCache,Magic Number,The method contains a magic number: 20000,224
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.cache,TestAbstractCache,testClearCache,Magic Number,The method contains a magic number: 20000,236
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.cache,TestAbstractCache,testSetMaxCacheSize,Magic Number,The method contains a magic number: 1100,250
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.cache,TestAbstractCache,testSetMaxCacheSize,Magic Number,The method contains a magic number: 5000,250
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.cache,TestAbstractCache,testSetMaxCacheSize,Magic Number,The method contains a magic number: 1000,250
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.cache,TestAbstractCache,testDataExists,Magic Number,The method contains a magic number: 20000,276
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.cache,TestAbstractCache,testDataExists,Magic Number,The method contains a magic number: 20000,276
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.cache,TestAbstractCache,testLoadData,Magic Number,The method contains a magic number: 20000,296
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.cache,TestAbstractCache,testLoadData,Magic Number,The method contains a magic number: 20000,296
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.cache,TestAbstractCache,testSaveData,Magic Number,The method contains a magic number: 20000,315
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.cache,TestAbstractCache,testSaveData,Magic Number,The method contains a magic number: 20000,315
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.cache,TestAbstractCache,testDataIsStorable,Magic Number,The method contains a magic number: 20000,346
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.cache,TestAbstractCache,testDataIsStorable,Magic Number,The method contains a magic number: 20000,346
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.cache,TestAbstractCache,testDeleteData,Magic Number,The method contains a magic number: 20000,359
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.cache,TestAbstractCache,testCacheData,Magic Number,The method contains a magic number: 6500,372
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.cache,TestAbstractCache,testCacheData,Magic Number,The method contains a magic number: 6500,372
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.cache,TestAbstractCache,testCacheData,Magic Number,The method contains a magic number: 1000,372
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.cache,TestFirstInFirstOut,testConstructorSize,Magic Number,The method contains a magic number: 24,15
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.cache,TestFirstInFirstOut,testConstructorSize,Magic Number,The method contains a magic number: 1024,15
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.cache,TestFirstInFirstOut,testConstructorSize,Magic Number,The method contains a magic number: 1024,15
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.cache,TestFirstInFirstOut,testCacheData,Magic Number,The method contains a magic number: 6500,51
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.cache,TestLastInFirstOut,testConstructorSize,Magic Number,The method contains a magic number: 24,15
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.cache,TestLastInFirstOut,testConstructorSize,Magic Number,The method contains a magic number: 1024,15
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.cache,TestLastInFirstOut,testConstructorSize,Magic Number,The method contains a magic number: 1024,15
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.cache,TestLastInFirstOut,testCacheData,Magic Number,The method contains a magic number: 6500,51
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.cache,TestLeastFrequentlyUsed,testConstructorSize,Magic Number,The method contains a magic number: 24,16
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.cache,TestLeastFrequentlyUsed,testConstructorSize,Magic Number,The method contains a magic number: 1024,16
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.cache,TestLeastFrequentlyUsed,testConstructorSize,Magic Number,The method contains a magic number: 1024,16
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.cache,TestLeastFrequentlyUsed,testCacheData,Magic Number,The method contains a magic number: 6500,52
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.cache,TestLeastRecentlyUsed,testConstructorSize,Magic Number,The method contains a magic number: 24,15
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.cache,TestLeastRecentlyUsed,testConstructorSize,Magic Number,The method contains a magic number: 1024,15
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.cache,TestLeastRecentlyUsed,testConstructorSize,Magic Number,The method contains a magic number: 1024,15
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.cache,TestLeastRecentlyUsed,testCacheData,Magic Number,The method contains a magic number: 6500,51
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.cache,TestMostRecentlyUsed,testConstructorSize,Magic Number,The method contains a magic number: 24,16
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.cache,TestMostRecentlyUsed,testConstructorSize,Magic Number,The method contains a magic number: 1024,16
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.cache,TestMostRecentlyUsed,testConstructorSize,Magic Number,The method contains a magic number: 1024,16
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.cache,TestMostRecentlyUsed,testCacheData,Magic Number,The method contains a magic number: 6500,52
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.cache,TestRandomReplacement,testConstructorSize,Magic Number,The method contains a magic number: 24,19
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.cache,TestRandomReplacement,testConstructorSize,Magic Number,The method contains a magic number: 1024,19
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.cache,TestRandomReplacement,testConstructorSize,Magic Number,The method contains a magic number: 1024,19
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.cache,TestRandomReplacement,testConstructorStorageSizePredicateSeed,Magic Number,The method contains a magic number: 800,35
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.cache,TestRandomReplacement,testConstructorStorageSizePredicateSeed,Magic Number,The method contains a magic number: 123,35
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.cache,TestRandomReplacement,testCacheData,Magic Number,The method contains a magic number: 800L,62
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.cache,TestRandomReplacement,testCacheData,Magic Number,The method contains a magic number: 6500,62
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.cache.entry,AbstractEntry,hashCode,Magic Number,The method contains a magic number: 31,67
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.cache.entry,TestAbstractEntry,initialize,Magic Number,The method contains a magic number: 300L,27
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.cache.entry,TestAbstractEntry,initialize,Magic Number,The method contains a magic number: 9876543210L,27
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.cache.entry,TestCountedEntry,testUseCount,Magic Number,The method contains a magic number: 3,45
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.cache.entry,TestTimedEntry,testTime,Magic Number,The method contains a magic number: 5e5,46
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image,ImageDB,unmap,Long Statement,The length of the statement "Map.Entry<String`Map<Long`ImageSize>> img=webui.entrySet().stream().filter(entry -> entry.getValue().containsKey(imageID)).findFirst().orElse(null);" is 148.,316
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image,StoreImage,hashCode,Magic Number,The method contains a magic number: 31,204
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image,StoreImage,hashCode,Magic Number,The method contains a magic number: 32,204
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image,TestImageScaler,testScale,Magic Number,The method contains a magic number: 2.2,61
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image,TestImageScaler,testScale,Magic Number,The method contains a magic number: 2.2,61
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image,TestImageScaler,testScale,Magic Number,The method contains a magic number: 2.2,61
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image,TestImageScaler,testScale,Magic Number,The method contains a magic number: 0.33,61
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image,TestImageScaler,testScale,Magic Number,The method contains a magic number: 0.33,61
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image,TestImageScaler,testScale,Magic Number,The method contains a magic number: 0.33,61
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image,TestImageScaler,testScale,Magic Number,The method contains a magic number: 0.001,61
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image,TestImageScaler,testScale,Magic Number,The method contains a magic number: 2.5,61
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image,TestImageScaler,testScale,Magic Number,The method contains a magic number: 2.5,61
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image,TestImageScaler,testScale,Magic Number,The method contains a magic number: 2.5,61
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image,TestImageScaler,testScale,Magic Number,The method contains a magic number: 2.5,61
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image,TestImageScaler,testScale,Magic Number,The method contains a magic number: 0.5,61
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image,TestImageScaler,testScale,Magic Number,The method contains a magic number: 4.0,61
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image,TestImageScaler,testScale,Magic Number,The method contains a magic number: 0.5,61
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image,TestImageScaler,testScale,Magic Number,The method contains a magic number: 4.0,61
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image,TestImageScaler,testScale,Magic Number,The method contains a magic number: 4.0,61
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image,TestImageScaler,testScale,Magic Number,The method contains a magic number: 0.5,61
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image,TestImageScaler,testScale,Magic Number,The method contains a magic number: 4.0,61
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image,TestImageScaler,testScale,Magic Number,The method contains a magic number: 0.5,61
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image,TestImageScaler,testScale,Magic Number,The method contains a magic number: 807,61
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image,TestImageScaler,testScale,Magic Number,The method contains a magic number: 807,61
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image,TestImageScaler,testScale,Magic Number,The method contains a magic number: 807,61
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image,TestImageScaler,testScale,Magic Number,The method contains a magic number: 122,61
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image,TestImageScaler,testScale,Magic Number,The method contains a magic number: 122,61
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image,TestImageScaler,testScale,Magic Number,The method contains a magic number: 122,61
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image,TestImageScaler,testScale,Magic Number,The method contains a magic number: 654,61
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image,TestImageScaler,testScale,Magic Number,The method contains a magic number: 654,61
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image,TestImageScaler,testScale,Magic Number,The method contains a magic number: 654,61
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image,TestImageScaler,testScale,Magic Number,The method contains a magic number: 654,61
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image,TestImageScaler,testScale,Magic Number,The method contains a magic number: 111,61
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image,TestImageScaler,testScale,Magic Number,The method contains a magic number: 555,61
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image,TestImageScaler,testScale,Magic Number,The method contains a magic number: 111,61
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image,TestImageScaler,testScale,Magic Number,The method contains a magic number: 555,61
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image,TestImageScaler,testScale,Magic Number,The method contains a magic number: 555,61
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image,TestImageScaler,testScale,Magic Number,The method contains a magic number: 111,61
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image,TestImageScaler,testScale,Magic Number,The method contains a magic number: 555,61
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image,TestImageScaler,testScale,Magic Number,The method contains a magic number: 111,61
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image,TestImageScaler,testScaleFactorBelowZero,Magic Number,The method contains a magic number: 1.34,133
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image,TestImageScaler,testScaleFactorTwoSingleBelowZero,Magic Number,The method contains a magic number: 1.5,143
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image,TestImageScaler,testScaleFactorTwoSingleBelowZero,Magic Number,The method contains a magic number: 2.0,143
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image,TestImageScaler,testScaleFactorTwoBelowZero,Magic Number,The method contains a magic number: 1.22,148
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image,TestImageScaler,testScaleFactorTwoBelowZero,Magic Number,The method contains a magic number: 2.22,148
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image,TestImageScaler,testScalePixelBelowOne,Magic Number,The method contains a magic number: 4,158
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image,TestImageScaler,testScalePixelTwoSIngleBelowZero,Magic Number,The method contains a magic number: 5,168
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image,TestImageScaler,testScalePixelTwoSIngleBelowZero,Magic Number,The method contains a magic number: 6,168
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image,TestImageScaler,testScalePixelTwoBelowOne,Magic Number,The method contains a magic number: 4,173
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image,TestImageScaler,testScalePixelTwoBelowOne,Magic Number,The method contains a magic number: 6,173
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image,TestImageScaler,testScaleImageNull,Magic Number,The method contains a magic number: 50,178
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image,TestStoreImage,convertToImage,Empty catch clause,The method has an empty catch block.,56
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image,TestStoreImage,testHashCode,Magic Number,The method contains a magic number: 31,171
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image,TestStoreImage,testHashCode,Magic Number,The method contains a magic number: 32,171
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.rest,ImageProviderEndpoint,getProductImages,Long Statement,The length of the statement "return Response.ok().entity(ImageProvider.IP.getProductImages(images.entrySet().parallelStream().collect(Collectors.toMap(e -> e.getKey()`e -> ImageSize.parseImageSize(e.getValue()))))).build();" is 194.,39
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.rest,ImageProviderEndpoint,getWebUIImages,Long Statement,The length of the statement "return Response.ok().entity(ImageProvider.IP.getWebUIImages(images.entrySet().parallelStream().collect(Collectors.toMap(e -> e.getKey()`e -> ImageSize.parseImageSize(e.getValue()))))).build();" is 192.,53
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.setup,CreatorFactory,CreatorFactory,Complex Method,Cyclomatic complexity of the method is 8,35
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.setup,CreatorFactory,CreatorFactory,Long Parameter List,The method has 7 parameters. ,35
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.setup,CreatorFactory,CreatorFactory,Long Statement,The length of the statement "this.categories=products.entrySet().stream().flatMap(e -> e.getValue().stream().map(x -> e.getKey())).collect(Collectors.toList());" is 131.,35
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.setup,CreatorFactory,newRunnable,Long Statement,The length of the statement "return new CreatorRunner(imgDB`imgSize`products.remove(0)`shapesPerImage`categoryImages.getOrDefault(categories.remove(0)`null)`workingDir`nrOfImagesGenerated);" is 160.,91
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.setup,CreatorRunner,CreatorRunner,Long Parameter List,The method has 7 parameters. ,40
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.setup,CreatorRunner,run,Long Statement,The length of the statement "Files.write(imgFile`Base64.getEncoder().encode(stream.toByteArray())`StandardOpenOption.CREATE`StandardOpenOption.WRITE`StandardOpenOption.TRUNCATE_EXISTING);" is 158.,65
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.setup,CreatorRunner,run,Long Statement,The length of the statement "log.warn("An IOException occured while writing image with ID " + String.valueOf(imgID) + " to file "+ imgFile.toAbsolutePath()+ "."`ioException);" is 145.,65
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.setup,CreatorRunner,run,Long Statement,The length of the statement "log.warn("An exception was thrown during image creation with ID " + String.valueOf(imgID) + " to file "+ imgFile.toAbsolutePath()+ "."`ioException);" is 148.,65
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.setup,ImageCreator,createImage,Magic Number,The method contains a magic number: 4,67
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.setup,ImageCreator,createImage,Magic Number,The method contains a magic number: 2,67
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.setup,ImageCreator,createImage,Magic Number,The method contains a magic number: 3,67
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.setup,ImageCreator,createImage,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@47a35edd,67
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.setup,ImageCreator,drawCategoryImage,Long Statement,The length of the statement "graphics.drawImage(categoryImg`rand.nextInt(maxSize.getWidth() - categoryImg.getWidth())`rand.nextInt(maxSize.getHeight() - categoryImg.getHeight())`categoryImg.getWidth()`categoryImg.getHeight()`null);" is 202.,114
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.setup,ImageCreator,makeLine,Long Statement,The length of the statement "graphics.drawLine(rand.nextInt(maxSize.getWidth())`rand.nextInt(maxSize.getHeight())`rand.nextInt(maxSize.getWidth())`rand.nextInt(maxSize.getHeight()));" is 153.,142
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.setup,ImageCreator,makeText,Complex Method,Cyclomatic complexity of the method is 8,164
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.setup,ImageCreator,makeText,Magic Number,The method contains a magic number: 4,164
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.setup,ImageCreator,makeText,Magic Number,The method contains a magic number: 2,164
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.setup,ImageCreator,makeText,Magic Number,The method contains a magic number: 3,164
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.setup,ImageCreator,makeText,Magic Number,The method contains a magic number: 3,164
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.setup,ImageCreator,makeText,Magic Number,The method contains a magic number: 2,164
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.setup,ImageCreator,makeText,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@6d96d646,164
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.setup,ImageCreator,makeText,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@7495c170,164
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.storage,DriveStorage,loadFromDisk,Long Statement,The length of the statement "log.warn("An IOException occured while trying to read the file \"" + imgFile.toAbsolutePath() + "\" from disk. Returning null."`ioException);" is 141.,93
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.storage,DriveStorage,saveData,Long Statement,The length of the statement "Files.write(imgFile`data.getByteArray()`StandardOpenOption.CREATE`StandardOpenOption.WRITE`StandardOpenOption.TRUNCATE_EXISTING);" is 129.,136
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.image.storage,DriveStorage,saveData,Long Statement,The length of the statement "log.warn("An IOException occured while trying to write the file \"" + imgFile.toAbsolutePath() + "\" to disk."`ioException);" is 124.,136
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.persistence.daemons,InitialDataGenerationDaemon,contextInitialized,Long Statement,The length of the statement "DataGenerator.GENERATOR.generateDatabaseContent(DataGenerator.SMALL_DB_CATEGORIES`DataGenerator.SMALL_DB_PRODUCTS_PER_CATEGORY`DataGenerator.SMALL_DB_USERS`DataGenerator.SMALL_DB_MAX_ORDERS_PER_USER);" is 200.,59
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.persistence.domain,OrderItemRepository,getAllEntitiesWithProduct,Long Statement,The length of the statement "TypedQuery<PersistenceOrderItem> allMatchesQuery=em.createQuery("SELECT u FROM " + getEntityClass().getName() + " u WHERE u.product = :prod"`getEntityClass());" is 159.,91
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.persistence.domain,OrderItemRepository,getAllEntitiesWithOrder,Long Statement,The length of the statement "TypedQuery<PersistenceOrderItem> allMatchesQuery=em.createQuery("SELECT u FROM " + getEntityClass().getName() + " u WHERE u.order = :order"`getEntityClass());" is 158.,121
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.persistence.domain,OrderRepository,getAllEntitiesWithUser,Long Statement,The length of the statement "TypedQuery<PersistenceOrder> allMatchesQuery=em.createQuery("SELECT u FROM " + getEntityClass().getName() + " u WHERE u.user = :user"`getEntityClass());" is 152.,101
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.persistence.domain,PersistenceOrder,deleteOrders,Long Statement,The length of the statement "em.createQuery("DELETE FROM PersistenceOrderItem oi WHERE oi.order = :order").setParameter("order"`this).executeUpdate();" is 121.,73
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.persistence.domain,PersistenceUser,deleteOrders,Long Statement,The length of the statement "em.createQuery("DELETE FROM PersistenceOrderItem oi WHERE oi.order.user = :user").setParameter("user"`this).executeUpdate();" is 124.,52
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.persistence.domain,ProductRepository,getAllEntities,Long Statement,The length of the statement "TypedQuery<PersistenceProduct> allMatchesQuery=em.createQuery("SELECT u FROM " + getEntityClass().getName() + " u WHERE u.category = :cat"`getEntityClass());" is 157.,92
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.persistence.domain,ProductRepository,getProductCount,Long Statement,The length of the statement "TypedQuery<Long> allMatchesQuery=em.createQuery("SELECT COUNT(u) FROM " + getEntityClass().getName() + " u WHERE u.category = :cat"`Long.class);" is 144.,122
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.persistence.domain,UserRepository,getUserByName,Long Statement,The length of the statement "TypedQuery<PersistenceUser> allMatchesQuery=em.createQuery("SELECT u FROM " + getEntityClass().getName() + " u WHERE u.userName = :name"`getEntityClass()).setMaxResults(1);" is 172.,107
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.persistence.repository,CacheManager,clearAllCaches,Empty catch clause,The method has an empty catch block.,45
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.persistence.repository,CacheManager,clearAllCaches,Long Statement,The length of the statement "ServiceLoadBalancer.multicastRESTToOtherServiceInstances(ENDPOINTURI`String.class`client -> clearRemoteCacheREST(client`null));" is 127.,45
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.persistence.repository,CacheManager,clearRemoteCache,Empty catch clause,The method has an empty catch block.,69
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.persistence.repository,CacheManager,clearRemoteCache,Long Statement,The length of the statement "responses=ServiceLoadBalancer.multicastRESTToOtherServiceInstances(ENDPOINTURI`String.class`client -> clearRemoteCacheREST(client`entityClass));" is 144.,69
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.persistence.repository,CacheManager,clearRemoteCacheREST,Magic Number,The method contains a magic number: 200,104
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.persistence.repository,CacheManager,resetRemoteEMFs,Empty catch clause,The method has an empty catch block.,130
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.persistence.repository,CacheManager,resetRemoteEMFs,Long Statement,The length of the statement "responses=ServiceLoadBalancer.multicastRESTToOtherServiceInstances(ENDPOINTURI`String.class`client -> resetRemoteEMF(client));" is 126.,130
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.persistence.repository,CacheManager,resetRemoteEMF,Magic Number,The method contains a magic number: 200,152
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.persistence.repository,DataGenerator,isDatabaseEmpty,Long Statement,The length of the statement "return (CategoryRepository.REPOSITORY.getAllEntities(-1`1).size() == 0 && UserRepository.REPOSITORY.getAllEntities(-1`1).size() == 0);" is 134.,172
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.persistence.repository,DataGenerator,generateDatabaseContent,Magic Number,The method contains a magic number: 5,183
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.persistence.repository,DataGenerator,generateProducts,Magic Number,The method contains a magic number: 95,227
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.persistence.repository,DataGenerator,generateProducts,Magic Number,The method contains a magic number: 12000,227
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.persistence.repository,DataGenerator,generateUsers,Magic Number,The method contains a magic number: 6,250
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.persistence.repository,DataGenerator,generateOrders,Long Statement,The length of the statement "order.setCreditCardExpiryDate(LocalDate.ofYearDay(LocalDateTime.now().getYear() + 1 + random.nextInt(10)`1 + random.nextInt(363)).format(DateTimeFormatter.ISO_LOCAL_DATE));" is 172.,262
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.persistence.repository,DataGenerator,generateOrders,Long Statement,The length of the statement "order.setTime(LocalDateTime.of(LocalDateTime.now().getYear() - random.nextInt(10)`1 + random.nextInt(10)`1 + random.nextInt(24)`random.nextInt(23)`random.nextInt(59)).format(DateTimeFormatter.ISO_LOCAL_DATE_TIME));" is 214.,262
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.persistence.repository,DataGenerator,generateOrders,Magic Number,The method contains a magic number: 0.5,262
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.persistence.repository,DataGenerator,generateOrders,Magic Number,The method contains a magic number: 0.5,262
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.persistence.repository,DataGenerator,generateOrders,Magic Number,The method contains a magic number: 9000,262
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.persistence.repository,DataGenerator,generateOrders,Magic Number,The method contains a magic number: 9000,262
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.persistence.repository,DataGenerator,generateOrders,Magic Number,The method contains a magic number: 500,262
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.persistence.repository,DataGenerator,generateOrders,Magic Number,The method contains a magic number: 10000,262
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.persistence.repository,DataGenerator,generateOrders,Magic Number,The method contains a magic number: 40000,262
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.persistence.repository,DataGenerator,generateOrders,Magic Number,The method contains a magic number: 0.5,262
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.persistence.repository,DataGenerator,generateOrders,Magic Number,The method contains a magic number: 10,262
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.persistence.repository,DataGenerator,generateOrders,Magic Number,The method contains a magic number: 363,262
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.persistence.repository,DataGenerator,generateOrders,Magic Number,The method contains a magic number: 10,262
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.persistence.repository,DataGenerator,generateOrders,Magic Number,The method contains a magic number: 10,262
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.persistence.repository,DataGenerator,generateOrders,Magic Number,The method contains a magic number: 24,262
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.persistence.repository,DataGenerator,generateOrders,Magic Number,The method contains a magic number: 23,262
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.persistence.repository,DataGenerator,generateOrders,Magic Number,The method contains a magic number: 59,262
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.persistence.repository,DataGenerator,generateOrderItem,Long Statement,The length of the statement "Product product=ProductRepository.REPOSITORY.getAllEntities(itemCategory.getId()`random.nextInt(productsPerCategory)`1).get(0);" is 127.,305
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.persistence.repository,DataGenerator,generateOrderItem,Magic Number,The method contains a magic number: 7,305
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.persistence.repository,DataGenerator,fourDigits,Magic Number,The method contains a magic number: 1000,321
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.persistence.repository,DataGenerator,fourDigits,Magic Number,The method contains a magic number: 8999,321
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.persistence.repository,DataGenerator,setGenerationFinishedFlag,Long Statement,The length of the statement "List<DatabaseManagementEntity> entities=em.createQuery("SELECT u FROM " + DatabaseManagementEntity.class.getName() + " u"`DatabaseManagementEntity.class).getResultList();" is 170.,341
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.persistence.repository,DataGenerator,getGenerationFinishedFlag,Long Statement,The length of the statement "List<DatabaseManagementEntity> entities=em.createQuery("SELECT u FROM " + DatabaseManagementEntity.class.getName() + " u"`DatabaseManagementEntity.class).getResultList();" is 170.,364
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.persistence.repository,DataGenerator,setMaintenanceModeGlobal,Long Statement,The length of the statement "List<Response> rs=ServiceLoadBalancer.multicastRESTToOtherServiceInstances("generatedb"`String.class`client -> setMaintenanceModeExternal(client`maintenanceMode));" is 163.,408
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.persistence.repository,DataGenerator,setMaintenanceModeExternal,Long Statement,The length of the statement "Response r=client.getEndpointTarget().path("maintenance").request(MediaType.TEXT_PLAIN).post(Entity.entity(String.valueOf(maintenanceMode)`MediaType.TEXT_PLAIN));" is 162.,425
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.persistence.rest,DatabaseGenerationEndpoint,generateDataBase,Long Statement,The length of the statement "LOG.info("Received database generation command for Persistence at " + RegistryClient.getClient().getMyServiceInstanceServer() + ".");" is 133.,42
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.persistence.rest,DatabaseGenerationEndpoint,generateDataBase,Long Statement,The length of the statement "LOG.info("Initializing database creation with " + categoryCount + " categories` "+ productCount+ " products per category` "+ userCount+ " users` "+ maxOrderCount+ " max orders per user.");" is 188.,42
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.persistence.rest,DatabaseGenerationEndpoint,generateDataBase,Long Statement,The length of the statement "String message="Creating database with " + categoryCount + " categories` "+ productCount+ " products per category` "+ userCount+ " users` "+ maxOrderCount+ " max orders per user.";" is 180.,42
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.persistence.rest,OrderEndpoint,listAllForUser,Long Statement,The length of the statement "for ( Order o : OrderRepository.REPOSITORY.getAllEntitiesWithUser(userId`parseIntQueryParam(startPosition)`parseIntQueryParam(maxResult))) {" is 140.,91
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.persistence.rest,OrderItemEndpoint,listAllForProduct,Long Statement,The length of the statement "for ( OrderItem oi : OrderItemRepository.REPOSITORY.getAllEntitiesWithProduct(productId`parseIntQueryParam(startPosition)`parseIntQueryParam(maxResult))) {" is 155.,91
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.persistence.rest,OrderItemEndpoint,listAllForOrder,Long Statement,The length of the statement "for ( OrderItem oi : OrderItemRepository.REPOSITORY.getAllEntitiesWithOrder(orderId`parseIntQueryParam(startPosition)`parseIntQueryParam(maxResult))) {" is 151.,114
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.persistence.rest,ProductEndpoint,listAllForCategory,Long Statement,The length of the statement "for ( Product p : ProductRepository.REPOSITORY.getAllEntities(categoryId`parseIntQueryParam(startPosition)`parseIntQueryParam(maxResult))) {" is 140.,92
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.persistence.rest,ProductEndpoint,countForCategory,Magic Number,The method contains a magic number: 404,115
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.persistence.rest,ProductEndpoint,countForCategory,Magic Number,The method contains a magic number: 404,115
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.persistence.servlet,IndexServlet,doGet,Long Statement,The length of the statement "response.getWriter().println("This is the persistence module running at " + request.getProtocol() + "://"+ request.getLocalAddr()+ ":"+ request.getLocalPort()+ "/"+ request.getContextPath());" is 191.,39
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.persistence,DataGeneratorTest,testRepos,Long Statement,The length of the statement "CategoryRepository.REPOSITORY.getAllEntities().forEach(c -> Assert.assertTrue(c.getName() != null && !c.getName().isEmpty()));" is 126.,52
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.persistence,DataGeneratorTest,testRepos,Long Statement,The length of the statement "UserRepository.REPOSITORY.getAllEntities().forEach(u -> Assert.assertTrue(userPattern.matcher(u.getUserName()).matches()));" is 123.,52
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.persistence,DataGeneratorTest,testRepos,Magic Number,The method contains a magic number: 2,52
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.persistence,DataGeneratorTest,testRepos,Magic Number,The method contains a magic number: 2,52
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.persistence,DataGeneratorTest,testRepos,Magic Number,The method contains a magic number: 2,52
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.persistence,DataGeneratorTest,testRepos,Magic Number,The method contains a magic number: 2,52
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.persistence,DataGeneratorTest,testRepos,Magic Number,The method contains a magic number: 2,52
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.persistence,DataGeneratorTest,testRepos,Magic Number,The method contains a magic number: 2,52
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.persistence,DataGeneratorTest,testRepos,Magic Number,The method contains a magic number: 2,52
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.persistence,RepositoryTest,testRepos,Long Method,The method has 135 lines of code.,65
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.persistence,RepositoryTest,testRepos,Magic Number,The method contains a magic number: 2,65
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.persistence,RepositoryTest,testRepos,Magic Number,The method contains a magic number: 2,65
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.persistence,RepositoryTest,testRepos,Magic Number,The method contains a magic number: 2,65
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.persistence,RepositoryTest,testRepos,Magic Number,The method contains a magic number: 500,65
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.persistence,RepositoryTest,testRepos,Magic Number,The method contains a magic number: 600,65
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.persistence,RepositoryTest,testRepos,Magic Number,The method contains a magic number: 700,65
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.persistence,RepositoryTest,testRepos,Magic Number,The method contains a magic number: 2,65
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.persistence,RepositoryTest,testRepos,Magic Number,The method contains a magic number: 5,65
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.persistence,RepositoryTest,testRepos,Magic Number,The method contains a magic number: 5,65
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.persistence,RepositoryTest,testRepos,Magic Number,The method contains a magic number: 6,65
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.persistence,RepositoryTest,testRepos,Magic Number,The method contains a magic number: 7,65
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.persistence,RepositoryTest,testRepos,Magic Number,The method contains a magic number: 8,65
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.persistence,RepositoryTest,testRepos,Magic Number,The method contains a magic number: 9,65
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.persistence,RepositoryTest,testRepos,Magic Number,The method contains a magic number: 2,65
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.persistence,RepositoryTest,testRepos,Magic Number,The method contains a magic number: 2,65
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.persistence,RepositoryTest,testRepos,Magic Number,The method contains a magic number: 5,65
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.persistence,RepositoryTest,testRepos,Magic Number,The method contains a magic number: 2,65
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.persistence,RepositoryTest,testRepos,Magic Number,The method contains a magic number: 500,65
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.persistence,RepositoryTest,testRepos,Magic Number,The method contains a magic number: 5,65
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.persistence,RepositoryTest,testRepos,Magic Number,The method contains a magic number: 5,65
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.persistence,RepositoryTest,testRepos,Magic Number,The method contains a magic number: 2,65
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,RecommenderSelector,recommendProducts,Long Statement,The length of the statement "LOG.trace("Executing " + recommender.getClass().getName() + " as recommender failed. Using fallback recommender. Reason:\n"+ e.getMessage());" is 141.,134
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,RecommenderSelector,recommendProducts,Long Statement,The length of the statement "LOG.error("Executing " + recommender.getClass().getName() + " threw an UnsupportedOperationException. The recommender was not finished with training.");" is 152.,134
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,RecommenderSelector,recommendProducts,Long Statement,The length of the statement "LOG.warn("Executing " + recommender.getClass().getName() + " threw an unexpected error. Using fallback recommender. Reason:\n"+ e.getMessage());" is 144.,134
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,AbstractRecommenderFunctionalityTest,testAbstractFunctions,Magic Number,The method contains a magic number: 2L,30
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,AbstractRecommenderFunctionalityTest,testAbstractFunctions,Magic Number,The method contains a magic number: 3L,30
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,AbstractRecommenderFunctionalityTest,testAbstractFunctions,Magic Number,The method contains a magic number: 100L,30
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,AbstractRecommenderFunctionalityTest,testAbstractFunctions,Magic Number,The method contains a magic number: 2L,30
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,AbstractRecommenderFunctionalityTest,testAbstractFunctions,Magic Number,The method contains a magic number: 8.0,30
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,AbstractRecommenderFunctionalityTest,testAbstractFunctions,Magic Number,The method contains a magic number: 4L,30
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,AbstractRecommenderFunctionalityTest,testAbstractFunctions,Magic Number,The method contains a magic number: 2.0,30
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,AbstractRecommenderFunctionalityTest,testAbstractFunctions,Magic Number,The method contains a magic number: 101L,30
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,AbstractRecommenderFunctionalityTest,testAbstractFunctions,Magic Number,The method contains a magic number: 3L,30
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,AbstractRecommenderFunctionalityTest,testAbstractFunctions,Magic Number,The method contains a magic number: 4L,30
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,AbstractRecommenderFunctionalityTest,testAbstractFunctions,Magic Number,The method contains a magic number: 103L,30
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,AbstractRecommenderFunctionalityTest,testAbstractFunctions,Magic Number,The method contains a magic number: 2L,30
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,AbstractRecommenderFunctionalityTest,testAbstractFunctions,Magic Number,The method contains a magic number: 2.0,30
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,AbstractRecommenderFunctionalityTest,testAbstractFunctions,Magic Number,The method contains a magic number: 104L,30
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,AbstractRecommenderFunctionalityTest,testAbstractFunctions,Magic Number,The method contains a magic number: 2L,30
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,AbstractRecommenderFunctionalityTest,testAbstractFunctions,Magic Number,The method contains a magic number: 3L,30
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,AbstractRecommenderFunctionalityTest,testAbstractFunctions,Magic Number,The method contains a magic number: 4L,30
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,AbstractRecommenderFunctionalityTest,testAbstractFunctions,Magic Number,The method contains a magic number: 5L,30
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,AbstractRecommenderFunctionalityTest,testAbstractFunctions,Magic Number,The method contains a magic number: 105L,30
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,AbstractRecommenderFunctionalityTest,testAbstractFunctions,Magic Number,The method contains a magic number: 3L,30
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,AbstractRecommenderFunctionalityTest,testAbstractFunctions,Magic Number,The method contains a magic number: 106L,30
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,AbstractRecommenderTest,setup,Long Method,The method has 175 lines of code.,47
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,AbstractRecommenderTest,setup,Magic Number,The method contains a magic number: 100,47
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,AbstractRecommenderTest,setup,Magic Number,The method contains a magic number: 101,47
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,AbstractRecommenderTest,setup,Magic Number,The method contains a magic number: 102,47
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,AbstractRecommenderTest,setup,Magic Number,The method contains a magic number: 103,47
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,AbstractRecommenderTest,setup,Magic Number,The method contains a magic number: 104,47
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,AbstractRecommenderTest,setup,Magic Number,The method contains a magic number: 105,47
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,AbstractRecommenderTest,setup,Magic Number,The method contains a magic number: 106,47
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,AbstractRecommenderTest,setup,Magic Number,The method contains a magic number: 100,47
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,AbstractRecommenderTest,setup,Magic Number,The method contains a magic number: 10,47
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,AbstractRecommenderTest,setup,Magic Number,The method contains a magic number: 101,47
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,AbstractRecommenderTest,setup,Magic Number,The method contains a magic number: 11,47
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,AbstractRecommenderTest,setup,Magic Number,The method contains a magic number: 103,47
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,AbstractRecommenderTest,setup,Magic Number,The method contains a magic number: 12,47
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,AbstractRecommenderTest,setup,Magic Number,The method contains a magic number: 104,47
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,AbstractRecommenderTest,setup,Magic Number,The method contains a magic number: 13,47
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,AbstractRecommenderTest,setup,Magic Number,The method contains a magic number: 101,47
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,AbstractRecommenderTest,setup,Magic Number,The method contains a magic number: 14,47
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,AbstractRecommenderTest,setup,Magic Number,The method contains a magic number: 101,47
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,AbstractRecommenderTest,setup,Magic Number,The method contains a magic number: 15,47
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,AbstractRecommenderTest,setup,Magic Number,The method contains a magic number: 105,47
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,AbstractRecommenderTest,setup,Magic Number,The method contains a magic number: 16,47
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,AbstractRecommenderTest,setup,Magic Number,The method contains a magic number: 106,47
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,AbstractRecommenderTest,setup,Magic Number,The method contains a magic number: 17,47
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,AbstractRecommenderTest,setup,Magic Number,The method contains a magic number: 10,47
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,AbstractRecommenderTest,setup,Magic Number,The method contains a magic number: 2,47
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,AbstractRecommenderTest,setup,Magic Number,The method contains a magic number: 10,47
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,AbstractRecommenderTest,setup,Magic Number,The method contains a magic number: 3,47
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,AbstractRecommenderTest,setup,Magic Number,The method contains a magic number: 10,47
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,AbstractRecommenderTest,setup,Magic Number,The method contains a magic number: 4,47
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,AbstractRecommenderTest,setup,Magic Number,The method contains a magic number: 2,47
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,AbstractRecommenderTest,setup,Magic Number,The method contains a magic number: 11,47
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,AbstractRecommenderTest,setup,Magic Number,The method contains a magic number: 2,47
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,AbstractRecommenderTest,setup,Magic Number,The method contains a magic number: 5,47
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,AbstractRecommenderTest,setup,Magic Number,The method contains a magic number: 11,47
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,AbstractRecommenderTest,setup,Magic Number,The method contains a magic number: 3,47
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,AbstractRecommenderTest,setup,Magic Number,The method contains a magic number: 12,47
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,AbstractRecommenderTest,setup,Magic Number,The method contains a magic number: 4,47
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,AbstractRecommenderTest,setup,Magic Number,The method contains a magic number: 12,47
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,AbstractRecommenderTest,setup,Magic Number,The method contains a magic number: 12,47
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,AbstractRecommenderTest,setup,Magic Number,The method contains a magic number: 2,47
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,AbstractRecommenderTest,setup,Magic Number,The method contains a magic number: 2,47
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,AbstractRecommenderTest,setup,Magic Number,The method contains a magic number: 13,47
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,AbstractRecommenderTest,setup,Magic Number,The method contains a magic number: 2,47
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,AbstractRecommenderTest,setup,Magic Number,The method contains a magic number: 2,47
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,AbstractRecommenderTest,setup,Magic Number,The method contains a magic number: 14,47
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,AbstractRecommenderTest,setup,Magic Number,The method contains a magic number: 2,47
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,AbstractRecommenderTest,setup,Magic Number,The method contains a magic number: 15,47
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,AbstractRecommenderTest,setup,Magic Number,The method contains a magic number: 2,47
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,AbstractRecommenderTest,setup,Magic Number,The method contains a magic number: 16,47
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,AbstractRecommenderTest,setup,Magic Number,The method contains a magic number: 3,47
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,AbstractRecommenderTest,setup,Magic Number,The method contains a magic number: 16,47
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,AbstractRecommenderTest,setup,Magic Number,The method contains a magic number: 4,47
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,AbstractRecommenderTest,setup,Magic Number,The method contains a magic number: 16,47
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,AbstractRecommenderTest,setup,Magic Number,The method contains a magic number: 5,47
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,AbstractRecommenderTest,setup,Magic Number,The method contains a magic number: 16,47
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,AbstractRecommenderTest,setup,Magic Number,The method contains a magic number: 3,47
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,AbstractRecommenderTest,setup,Magic Number,The method contains a magic number: 17,47
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,AbstractRecommenderTest,setup,Magic Number,The method contains a magic number: 2,47
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,AbstractRecommenderTest,setup,Magic Number,The method contains a magic number: 3,47
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,AbstractRecommenderTest,setup,Magic Number,The method contains a magic number: 5,47
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,AbstractRecommenderTest,setup,Magic Number,The method contains a magic number: 6,47
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,AbstractRecommenderTest,testInterface,Empty catch clause,The method has an empty catch block.,277
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,AbstractRecommenderTest,testInterface,Long Statement,The length of the statement "Assert.assertEquals(recommended.getClass()`getAlgo().recommendProducts(allUsers.get(2).getId()`recommendMulti).getClass());" is 123.,277
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,AbstractRecommenderTest,testInterface,Magic Number,The method contains a magic number: 2,277
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,AbstractRecommenderTest,testInterface,Magic Number,The method contains a magic number: 2,277
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,DummyRecommenderTest,testMultiResults,Magic Number,The method contains a magic number: 4,67
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,OrderBasedRecommenderTest,testSingleResults,Empty catch clause,The method has an empty catch block.,52
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,OrderBasedRecommenderTest,testSingleResults,Magic Number,The method contains a magic number: 100L,52
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,OrderBasedRecommenderTest,testSingleResults,Magic Number,The method contains a magic number: 102L,52
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,OrderBasedRecommenderTest,testSingleResults,Magic Number,The method contains a magic number: 100L,52
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,OrderBasedRecommenderTest,testSingleResults,Magic Number,The method contains a magic number: 3L,52
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,OrderBasedRecommenderTest,testSingleResults,Magic Number,The method contains a magic number: 2L,52
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,OrderBasedRecommenderTest,testSingleResults,Magic Number,The method contains a magic number: 4L,52
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,OrderBasedRecommenderTest,testSingleResults,Magic Number,The method contains a magic number: 2,52
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,OrderBasedRecommenderTest,testSingleResults,Magic Number,The method contains a magic number: 4L,52
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,OrderBasedRecommenderTest,testSingleResults,Magic Number,The method contains a magic number: 2L,52
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,OrderBasedRecommenderTest,testSingleResults,Magic Number,The method contains a magic number: 2,52
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,OrderBasedRecommenderTest,testSingleResults,Magic Number,The method contains a magic number: 3,52
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,OrderBasedRecommenderTest,testSingleResults,Magic Number,The method contains a magic number: 6,52
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,OrderBasedRecommenderTest,testSingleResults,Magic Number,The method contains a magic number: 100L,52
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,OrderBasedRecommenderTest,evaluateForItemNo2,Magic Number,The method contains a magic number: 3L,91
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,OrderBasedRecommenderTest,evaluateForItemNo2,Magic Number,The method contains a magic number: 4L,91
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,OrderBasedRecommenderTest,evaluateForItemNo2,Magic Number,The method contains a magic number: 4L,91
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,OrderBasedRecommenderTest,evaluateForItemNo2,Magic Number,The method contains a magic number: 3L,91
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,OrderBasedRecommenderTest,evaluateForItemNo2,Magic Number,The method contains a magic number: 2,91
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,OrderBasedRecommenderTest,evaluateForItemNo2,Magic Number,The method contains a magic number: 5L,91
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,OrderBasedRecommenderTest,evaluateForItemNo2,Magic Number,The method contains a magic number: 3,91
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,OrderBasedRecommenderTest,evaluateForItemNo2,Magic Number,The method contains a magic number: 5L,91
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,OrderBasedRecommenderTest,evaluateForItemNo2,Magic Number,The method contains a magic number: 2,91
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,OrderBasedRecommenderTest,evaluateForItemNo2,Magic Number,The method contains a magic number: 3,91
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,OrderBasedRecommenderTest,evaluateForItemNo2,Magic Number,The method contains a magic number: 4,91
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,OrderBasedRecommenderTest,testMultiResults,Magic Number,The method contains a magic number: 100L,118
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,OrderBasedRecommenderTest,testMultiResults,Magic Number,The method contains a magic number: 102L,118
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,OrderBasedRecommenderTest,testMultiResults,Magic Number,The method contains a magic number: 104L,118
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,OrderBasedRecommenderTest,testMultiResults,Magic Number,The method contains a magic number: 105L,118
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,OrderBasedRecommenderTest,testMultiResults,Magic Number,The method contains a magic number: 101L,118
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,OrderBasedRecommenderTest,evaluateForItemNo356,Magic Number,The method contains a magic number: 2L,139
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,OrderBasedRecommenderTest,evaluateForItemNo356,Magic Number,The method contains a magic number: 4L,139
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,OrderBasedRecommenderTest,evaluateForItemNo356,Magic Number,The method contains a magic number: 4L,139
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,OrderBasedRecommenderTest,evaluateForItemNo356,Magic Number,The method contains a magic number: 2L,139
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,OrderBasedRecommenderTest,evaluateForItemNo356,Magic Number,The method contains a magic number: 2,139
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,OrderBasedRecommenderTest,evaluateForItemNo356,Magic Number,The method contains a magic number: 3,139
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,PopularityBasedRecommenderTest,testSingleResults,Magic Number,The method contains a magic number: 3L,48
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,PopularityBasedRecommenderTest,testSingleResults,Magic Number,The method contains a magic number: 4L,48
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,PopularityBasedRecommenderTest,testSingleResults,Magic Number,The method contains a magic number: 2,48
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,PopularityBasedRecommenderTest,testSingleResults,Magic Number,The method contains a magic number: 5L,48
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,PopularityBasedRecommenderTest,testSingleResults,Magic Number,The method contains a magic number: 3,48
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,PopularityBasedRecommenderTest,testSingleResults,Magic Number,The method contains a magic number: 4,48
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,PopularityBasedRecommenderTest,testSingleResults,Magic Number,The method contains a magic number: 2,48
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,PopularityBasedRecommenderTest,testSingleResults,Magic Number,The method contains a magic number: 3L,48
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,PopularityBasedRecommenderTest,testSingleResults,Magic Number,The method contains a magic number: 4L,48
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,PopularityBasedRecommenderTest,testSingleResults,Magic Number,The method contains a magic number: 2,48
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,PopularityBasedRecommenderTest,testSingleResults,Magic Number,The method contains a magic number: 5L,48
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,PopularityBasedRecommenderTest,testSingleResults,Magic Number,The method contains a magic number: 3,48
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,PopularityBasedRecommenderTest,testSingleResults,Magic Number,The method contains a magic number: 4,48
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,PopularityBasedRecommenderTest,testMultiResults,Magic Number,The method contains a magic number: 2L,74
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,PopularityBasedRecommenderTest,testMultiResults,Magic Number,The method contains a magic number: 4L,74
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,PopularityBasedRecommenderTest,testMultiResults,Magic Number,The method contains a magic number: 2,74
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,PopularityBasedRecommenderTest,testMultiResults,Magic Number,The method contains a magic number: 3,74
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,PopularityBasedRecommenderTest,testMultiResults,Magic Number,The method contains a magic number: 2,74
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,PopularityBasedRecommenderTest,testMultiResults,Magic Number,The method contains a magic number: 2L,74
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,PopularityBasedRecommenderTest,testMultiResults,Magic Number,The method contains a magic number: 4L,74
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,PopularityBasedRecommenderTest,testMultiResults,Magic Number,The method contains a magic number: 2,74
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,PopularityBasedRecommenderTest,testMultiResults,Magic Number,The method contains a magic number: 3,74
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,PopularityBasedRecommenderTest,testMultiResults,Magic Number,The method contains a magic number: 4,74
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,PopularityBasedRecommenderTest,testMultiResults,Magic Number,The method contains a magic number: 2L,74
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,PopularityBasedRecommenderTest,testMultiResults,Magic Number,The method contains a magic number: 4L,74
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,PopularityBasedRecommenderTest,testMultiResults,Magic Number,The method contains a magic number: 2,74
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,PopularityBasedRecommenderTest,testMultiResults,Magic Number,The method contains a magic number: 3,74
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,PreprocessedSlopeOneRecommenderTest,checkUserPredictionMatrix,Magic Number,The method contains a magic number: 2L,55
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,PreprocessedSlopeOneRecommenderTest,checkUserPredictionMatrix,Magic Number,The method contains a magic number: 3L,55
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,PreprocessedSlopeOneRecommenderTest,checkUserPredictionMatrix,Magic Number,The method contains a magic number: 4L,55
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,PreprocessedSlopeOneRecommenderTest,checkUserPredictionMatrix,Magic Number,The method contains a magic number: 2.2,55
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,PreprocessedSlopeOneRecommenderTest,checkUserPredictionMatrix,Magic Number,The method contains a magic number: 5L,55
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,PreprocessedSlopeOneRecommenderTest,checkUserPredictionMatrix,Magic Number,The method contains a magic number: 100L,55
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,PreprocessedSlopeOneRecommenderTest,checkUserPredictionMatrix,Magic Number,The method contains a magic number: 5.0,55
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,PreprocessedSlopeOneRecommenderTest,checkUserPredictionMatrix,Magic Number,The method contains a magic number: 2L,55
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,PreprocessedSlopeOneRecommenderTest,checkUserPredictionMatrix,Magic Number,The method contains a magic number: 8.0,55
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,PreprocessedSlopeOneRecommenderTest,checkUserPredictionMatrix,Magic Number,The method contains a magic number: 3L,55
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,PreprocessedSlopeOneRecommenderTest,checkUserPredictionMatrix,Magic Number,The method contains a magic number: 5.0,55
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,PreprocessedSlopeOneRecommenderTest,checkUserPredictionMatrix,Magic Number,The method contains a magic number: 4L,55
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,PreprocessedSlopeOneRecommenderTest,checkUserPredictionMatrix,Magic Number,The method contains a magic number: 2.0,55
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,PreprocessedSlopeOneRecommenderTest,checkUserPredictionMatrix,Magic Number,The method contains a magic number: 5L,55
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,PreprocessedSlopeOneRecommenderTest,checkUserPredictionMatrix,Magic Number,The method contains a magic number: 5.0,55
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,PreprocessedSlopeOneRecommenderTest,checkUserPredictionMatrix,Magic Number,The method contains a magic number: 101L,55
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,PreprocessedSlopeOneRecommenderTest,checkUserPredictionMatrix,Magic Number,The method contains a magic number: 2L,55
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,PreprocessedSlopeOneRecommenderTest,checkUserPredictionMatrix,Magic Number,The method contains a magic number: 0.2,55
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,PreprocessedSlopeOneRecommenderTest,checkUserPredictionMatrix,Magic Number,The method contains a magic number: 3L,55
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,PreprocessedSlopeOneRecommenderTest,checkUserPredictionMatrix,Magic Number,The method contains a magic number: 4L,55
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,PreprocessedSlopeOneRecommenderTest,checkUserPredictionMatrix,Magic Number,The method contains a magic number: 5L,55
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,PreprocessedSlopeOneRecommenderTest,checkUserPredictionMatrix,Magic Number,The method contains a magic number: 103L,55
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,PreprocessedSlopeOneRecommenderTest,checkUserPredictionMatrix,Magic Number,The method contains a magic number: 2.0,55
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,PreprocessedSlopeOneRecommenderTest,checkUserPredictionMatrix,Magic Number,The method contains a magic number: 2L,55
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,PreprocessedSlopeOneRecommenderTest,checkUserPredictionMatrix,Magic Number,The method contains a magic number: 2.0,55
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,PreprocessedSlopeOneRecommenderTest,checkUserPredictionMatrix,Magic Number,The method contains a magic number: 3L,55
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,PreprocessedSlopeOneRecommenderTest,checkUserPredictionMatrix,Magic Number,The method contains a magic number: 2.0,55
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,PreprocessedSlopeOneRecommenderTest,checkUserPredictionMatrix,Magic Number,The method contains a magic number: 4L,55
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,PreprocessedSlopeOneRecommenderTest,checkUserPredictionMatrix,Magic Number,The method contains a magic number: 5.0,55
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,PreprocessedSlopeOneRecommenderTest,checkUserPredictionMatrix,Magic Number,The method contains a magic number: 5L,55
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,PreprocessedSlopeOneRecommenderTest,checkUserPredictionMatrix,Magic Number,The method contains a magic number: 2.0,55
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,PreprocessedSlopeOneRecommenderTest,checkUserPredictionMatrix,Magic Number,The method contains a magic number: 104L,55
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,PreprocessedSlopeOneRecommenderTest,checkUserPredictionMatrix,Magic Number,The method contains a magic number: 2L,55
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,PreprocessedSlopeOneRecommenderTest,checkUserPredictionMatrix,Magic Number,The method contains a magic number: 3L,55
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,PreprocessedSlopeOneRecommenderTest,checkUserPredictionMatrix,Magic Number,The method contains a magic number: 4L,55
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,PreprocessedSlopeOneRecommenderTest,checkUserPredictionMatrix,Magic Number,The method contains a magic number: 5L,55
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,PreprocessedSlopeOneRecommenderTest,checkUserPredictionMatrix,Magic Number,The method contains a magic number: 105L,55
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,PreprocessedSlopeOneRecommenderTest,checkUserPredictionMatrix,Magic Number,The method contains a magic number: 2L,55
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,PreprocessedSlopeOneRecommenderTest,checkUserPredictionMatrix,Magic Number,The method contains a magic number: 3L,55
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,PreprocessedSlopeOneRecommenderTest,checkUserPredictionMatrix,Magic Number,The method contains a magic number: 4L,55
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,PreprocessedSlopeOneRecommenderTest,checkUserPredictionMatrix,Magic Number,The method contains a magic number: 5L,55
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,PreprocessedSlopeOneRecommenderTest,checkUserPredictionMatrix,Magic Number,The method contains a magic number: 106L,55
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,SlopeOneRecommenderTest,testSingleResults,Empty catch clause,The method has an empty catch block.,54
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,SlopeOneRecommenderTest,testSingleResults,Empty catch clause,The method has an empty catch block.,54
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,SlopeOneRecommenderTest,testSingleResults,Magic Number,The method contains a magic number: 100L,54
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,SlopeOneRecommenderTest,testSingleResults,Magic Number,The method contains a magic number: 4L,54
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,SlopeOneRecommenderTest,testSingleResults,Magic Number,The method contains a magic number: 3L,54
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,SlopeOneRecommenderTest,testSingleResults,Magic Number,The method contains a magic number: 2,54
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,SlopeOneRecommenderTest,testSingleResults,Magic Number,The method contains a magic number: 3L,54
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,SlopeOneRecommenderTest,testSingleResults,Magic Number,The method contains a magic number: 2,54
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,SlopeOneRecommenderTest,testSingleResults,Magic Number,The method contains a magic number: 5L,54
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,SlopeOneRecommenderTest,testSingleResults,Magic Number,The method contains a magic number: 3,54
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,SlopeOneRecommenderTest,testSingleResults,Magic Number,The method contains a magic number: 4,54
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,SlopeOneRecommenderTest,testSingleResults,Magic Number,The method contains a magic number: 102L,54
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,SlopeOneRecommenderTest,testMultiResults,Empty catch clause,The method has an empty catch block.,96
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,SlopeOneRecommenderTest,testMultiResults,Empty catch clause,The method has an empty catch block.,96
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,SlopeOneRecommenderTest,testMultiResults,Magic Number,The method contains a magic number: 100L,96
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,SlopeOneRecommenderTest,testMultiResults,Magic Number,The method contains a magic number: 4L,96
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,SlopeOneRecommenderTest,testMultiResults,Magic Number,The method contains a magic number: 2L,96
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,SlopeOneRecommenderTest,testMultiResults,Magic Number,The method contains a magic number: 2,96
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,SlopeOneRecommenderTest,testMultiResults,Magic Number,The method contains a magic number: 2L,96
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,SlopeOneRecommenderTest,testMultiResults,Magic Number,The method contains a magic number: 2,96
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,SlopeOneRecommenderTest,testMultiResults,Magic Number,The method contains a magic number: 3,96
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,SlopeOneRecommenderTest,testMultiResults,Magic Number,The method contains a magic number: 102L,96
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,SlopeOneRecommenderTest,testMultiResults,Magic Number,The method contains a magic number: 104L,96
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,SlopeOneRecommenderTest,testMultiResults,Magic Number,The method contains a magic number: 4L,96
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,SlopeOneRecommenderTest,testMultiResults,Magic Number,The method contains a magic number: 2L,96
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,SlopeOneRecommenderTest,testMultiResults,Magic Number,The method contains a magic number: 2,96
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,SlopeOneRecommenderTest,testMultiResults,Magic Number,The method contains a magic number: 2L,96
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,SlopeOneRecommenderTest,testMultiResults,Magic Number,The method contains a magic number: 2,96
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,SlopeOneRecommenderTest,testMultiResults,Magic Number,The method contains a magic number: 3,96
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,SlopeOneRecommenderTest,testMultiResults,Magic Number,The method contains a magic number: 105L,96
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,SlopeOneRecommenderTest,testMultiResults,Magic Number,The method contains a magic number: 4L,96
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,SlopeOneRecommenderTest,testMultiResults,Magic Number,The method contains a magic number: 2L,96
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,SlopeOneRecommenderTest,testMultiResults,Magic Number,The method contains a magic number: 2L,96
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,SlopeOneRecommenderTest,testMultiResults,Magic Number,The method contains a magic number: 4L,96
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,SlopeOneRecommenderTest,testMultiResults,Magic Number,The method contains a magic number: 2,96
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,SlopeOneRecommenderTest,testMultiResults,Magic Number,The method contains a magic number: 3,96
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,SlopeOneRecommenderTest,testMultiResults,Magic Number,The method contains a magic number: 101L,96
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,SlopeOneRecommenderTest,testMultiResults,Magic Number,The method contains a magic number: 2L,96
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,SlopeOneRecommenderTest,testMultiResults,Magic Number,The method contains a magic number: 4L,96
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,SlopeOneRecommenderTest,testMultiResults,Magic Number,The method contains a magic number: 2,96
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,SlopeOneRecommenderTest,testMultiResults,Magic Number,The method contains a magic number: 3,96
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,SlopeOneRecommenderTest,checkDiffMatrix,Magic Number,The method contains a magic number: 2L,168
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,SlopeOneRecommenderTest,checkDiffMatrix,Magic Number,The method contains a magic number: 3L,168
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,SlopeOneRecommenderTest,checkDiffMatrix,Magic Number,The method contains a magic number: 4L,168
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,SlopeOneRecommenderTest,checkDiffMatrix,Magic Number,The method contains a magic number: 2L,168
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,SlopeOneRecommenderTest,checkDiffMatrix,Magic Number,The method contains a magic number: 3L,168
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,SlopeOneRecommenderTest,checkDiffMatrix,Magic Number,The method contains a magic number: 4L,168
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,SlopeOneRecommenderTest,checkDiffMatrix,Magic Number,The method contains a magic number: 3.0,168
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,SlopeOneRecommenderTest,checkDiffMatrix,Magic Number,The method contains a magic number: 5L,168
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,SlopeOneRecommenderTest,checkDiffMatrix,Magic Number,The method contains a magic number: 2L,168
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,SlopeOneRecommenderTest,checkDiffMatrix,Magic Number,The method contains a magic number: 2L,168
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,SlopeOneRecommenderTest,checkDiffMatrix,Magic Number,The method contains a magic number: 3L,168
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,SlopeOneRecommenderTest,checkDiffMatrix,Magic Number,The method contains a magic number: 4L,168
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,SlopeOneRecommenderTest,checkDiffMatrix,Magic Number,The method contains a magic number: 5L,168
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,SlopeOneRecommenderTest,checkDiffMatrix,Magic Number,The method contains a magic number: 3L,168
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,SlopeOneRecommenderTest,checkDiffMatrix,Magic Number,The method contains a magic number: 2L,168
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,SlopeOneRecommenderTest,checkDiffMatrix,Magic Number,The method contains a magic number: 3.0,168
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,SlopeOneRecommenderTest,checkDiffMatrix,Magic Number,The method contains a magic number: 3L,168
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,SlopeOneRecommenderTest,checkDiffMatrix,Magic Number,The method contains a magic number: 4L,168
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,SlopeOneRecommenderTest,checkDiffMatrix,Magic Number,The method contains a magic number: 5L,168
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,SlopeOneRecommenderTest,checkDiffMatrix,Magic Number,The method contains a magic number: 4L,168
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,SlopeOneRecommenderTest,checkDiffMatrix,Magic Number,The method contains a magic number: 2L,168
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,SlopeOneRecommenderTest,checkDiffMatrix,Magic Number,The method contains a magic number: 3L,168
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,SlopeOneRecommenderTest,checkDiffMatrix,Magic Number,The method contains a magic number: 4L,168
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,SlopeOneRecommenderTest,checkDiffMatrix,Magic Number,The method contains a magic number: 5L,168
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,SlopeOneRecommenderTest,checkDiffMatrix,Magic Number,The method contains a magic number: 5L,168
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,SlopeOneRecommenderTest,checkFreqMatrix,Magic Number,The method contains a magic number: 2,213
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,SlopeOneRecommenderTest,checkFreqMatrix,Magic Number,The method contains a magic number: 2L,213
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,SlopeOneRecommenderTest,checkFreqMatrix,Magic Number,The method contains a magic number: 3L,213
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,SlopeOneRecommenderTest,checkFreqMatrix,Magic Number,The method contains a magic number: 2,213
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,SlopeOneRecommenderTest,checkFreqMatrix,Magic Number,The method contains a magic number: 4L,213
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,SlopeOneRecommenderTest,checkFreqMatrix,Magic Number,The method contains a magic number: 2L,213
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,SlopeOneRecommenderTest,checkFreqMatrix,Magic Number,The method contains a magic number: 4,213
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,SlopeOneRecommenderTest,checkFreqMatrix,Magic Number,The method contains a magic number: 3L,213
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,SlopeOneRecommenderTest,checkFreqMatrix,Magic Number,The method contains a magic number: 2,213
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,SlopeOneRecommenderTest,checkFreqMatrix,Magic Number,The method contains a magic number: 4L,213
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,SlopeOneRecommenderTest,checkFreqMatrix,Magic Number,The method contains a magic number: 2,213
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,SlopeOneRecommenderTest,checkFreqMatrix,Magic Number,The method contains a magic number: 5L,213
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,SlopeOneRecommenderTest,checkFreqMatrix,Magic Number,The method contains a magic number: 2L,213
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,SlopeOneRecommenderTest,checkFreqMatrix,Magic Number,The method contains a magic number: 2,213
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,SlopeOneRecommenderTest,checkFreqMatrix,Magic Number,The method contains a magic number: 2L,213
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,SlopeOneRecommenderTest,checkFreqMatrix,Magic Number,The method contains a magic number: 2,213
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,SlopeOneRecommenderTest,checkFreqMatrix,Magic Number,The method contains a magic number: 3L,213
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,SlopeOneRecommenderTest,checkFreqMatrix,Magic Number,The method contains a magic number: 4,213
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,SlopeOneRecommenderTest,checkFreqMatrix,Magic Number,The method contains a magic number: 4L,213
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,SlopeOneRecommenderTest,checkFreqMatrix,Magic Number,The method contains a magic number: 2,213
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,SlopeOneRecommenderTest,checkFreqMatrix,Magic Number,The method contains a magic number: 5L,213
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,SlopeOneRecommenderTest,checkFreqMatrix,Magic Number,The method contains a magic number: 3L,213
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,SlopeOneRecommenderTest,checkFreqMatrix,Magic Number,The method contains a magic number: 2L,213
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,SlopeOneRecommenderTest,checkFreqMatrix,Magic Number,The method contains a magic number: 2,213
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,SlopeOneRecommenderTest,checkFreqMatrix,Magic Number,The method contains a magic number: 3L,213
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,SlopeOneRecommenderTest,checkFreqMatrix,Magic Number,The method contains a magic number: 2,213
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,SlopeOneRecommenderTest,checkFreqMatrix,Magic Number,The method contains a magic number: 4L,213
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,SlopeOneRecommenderTest,checkFreqMatrix,Magic Number,The method contains a magic number: 3,213
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,SlopeOneRecommenderTest,checkFreqMatrix,Magic Number,The method contains a magic number: 5L,213
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,SlopeOneRecommenderTest,checkFreqMatrix,Magic Number,The method contains a magic number: 4L,213
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,SlopeOneRecommenderTest,checkFreqMatrix,Magic Number,The method contains a magic number: 2L,213
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,SlopeOneRecommenderTest,checkFreqMatrix,Magic Number,The method contains a magic number: 3L,213
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,SlopeOneRecommenderTest,checkFreqMatrix,Magic Number,The method contains a magic number: 4L,213
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,SlopeOneRecommenderTest,checkFreqMatrix,Magic Number,The method contains a magic number: 5L,213
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm,SlopeOneRecommenderTest,checkFreqMatrix,Magic Number,The method contains a magic number: 5L,213
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm.impl.cf,SlopeOneRecommender,execute,Long Statement,The length of the statement "throw new UseFallBackException(this.getClass().getName() + " does not support null userids. Use a pseudouser or switch to another approach.");" is 142.,82
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.algorithm.impl.cf,SlopeOneRecommender,buildDifferencesMatrices,Complex Method,Cyclomatic complexity of the method is 9,148
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.rest,TrainEndpoint,train,Long Statement,The length of the statement "return Response.ok("The (re)train was succesfully done. It took " + time + "ms and "+ number+ " of Orderitems were retrieved from the database.").build();" is 154.,36
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.rest,TrainEndpoint,train,Long Statement,The length of the statement "return Response.status(Response.Status.INTERNAL_SERVER_ERROR.getStatusCode()).entity("The (re)trainprocess failed.").build();" is 125.,36
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.rest,TrainEndpoint,getTimeStamp,Long Statement,The length of the statement "return Response.status(Response.Status.PRECONDITION_FAILED.getStatusCode()).entity("The collection of the current maxTime was not possible.").build();" is 150.,68
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.servlet,IndexServlet,doGet,Long Statement,The length of the statement "response.getWriter().println("This is the recommender module running at " + request.getProtocol() + "://"+ request.getLocalAddr()+ ":"+ request.getLocalPort()+ "/"+ request.getContextPath());" is 191.,41
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.servlet,TrainingSynchronizer,waitForPersistence,Empty catch clause,The method has an empty catch block.,129
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.servlet,TrainingSynchronizer,waitForPersistence,Long Identifier,The length of the field PERSISTENCE_CREATION_WAIT_TIME is 30.,129
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.servlet,TrainingSynchronizer,waitForPersistence,Long Identifier,The length of the field PERSISTENCE_CREATION_MAX_WAIT_TIME is 34.,129
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.servlet,TrainingSynchronizer,waitForPersistence,Long Statement,The length of the statement "result=ServiceLoadBalancer.loadBalanceRESTOperation(Service.PERSISTENCE`"generatedb"`String.class`client -> client.getService().path(client.getApplicationURI()).path(client.getEndpointURI()).path("finished").request().get());" is 225.,129
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.recommender.servlet,TrainingSynchronizer,filterLists,Long Statement,The length of the statement "List<Response> maxTimeResponses=ServiceLoadBalancer.multicastRESTOperation(Service.RECOMMENDER`"train/timestamp"`Response.class`client -> client.getService().path(client.getApplicationURI()).path(client.getEndpointURI()).request(MediaType.TEXT_PLAIN).accept(MediaType.TEXT_PLAIN).get());" is 287.,212
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.registry.rest,HeartbeatInfo,isAlive,Magic Number,The method contains a magic number: 10000,26
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.registry.servlet,IndexServlet,doGet,Long Statement,The length of the statement "response.getWriter().println("This is the registry module running at " + request.getProtocol() + "://"+ request.getLocalAddr()+ ":"+ request.getLocalPort()+ "/"+ request.getContextPath());" is 188.,39
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.webui.servlet,AboutUsServlet,handleGETRequest,Long Statement,The length of the statement "HashMap<String`String> portraits=LoadBalancedImageOperations.getWebImages(Arrays.asList("andreBauer"`"johannesGrohmann"`"joakimKistowski"`"simonEismann"`"norbertSchmitt"`"samuelKounev")`ImageSizePreset.PORTRAIT.getSize());" is 222.,47
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.webui.servlet,AboutUsServlet,handleGETRequest,Long Statement,The length of the statement "request.setAttribute("descartesLogo"`LoadBalancedImageOperations.getWebImage("descartesLogo"`ImageSizePreset.LOGO.getSize()));" is 126.,47
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.webui.servlet,AbstractUIServlet,serveTimoutResponse,Long Statement,The length of the statement "request.setAttribute("messageparagraph"`"WebUI got a timeout waiting for service \"" + service.getServiceName() + "\" to respond. Note the that service may itself have been waiting for another service.");" is 204.,293
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.webui.servlet,AbstractUIServlet,serveTimoutResponse,Magic Number,The method contains a magic number: 408,293
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.webui.servlet,AbstractUIServlet,serveExceptionResponse,Magic Number,The method contains a magic number: 500,307
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.webui.servlet,AbstractUIServlet,serveNotFoundException,Magic Number,The method contains a magic number: 404,323
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.webui.servlet,CartActionServlet,handleGETRequest,Complex Method,Cyclomatic complexity of the method is 8,50
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.webui.servlet,CartActionServlet,confirmOrder,Long Statement,The length of the statement "blob=LoadBalancedStoreOperations.placeOrder(getSessionBlob(request)`infos[0] + " " + infos[1]`infos[2]`infos[3]`infos[4]`YearMonth.parse(infos[6]`DTF).atDay(1).format(DateTimeFormatter.ISO_LOCAL_DATE)`price`infos[5]);" is 217.,94
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.webui.servlet,CartActionServlet,confirmOrder,Magic Number,The method contains a magic number: 2,94
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.webui.servlet,CartActionServlet,confirmOrder,Magic Number,The method contains a magic number: 3,94
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.webui.servlet,CartActionServlet,confirmOrder,Magic Number,The method contains a magic number: 4,94
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.webui.servlet,CartActionServlet,confirmOrder,Magic Number,The method contains a magic number: 6,94
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.webui.servlet,CartActionServlet,confirmOrder,Magic Number,The method contains a magic number: 5,94
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.webui.servlet,CartActionServlet,updateOrder,Long Statement,The length of the statement "blob=LoadBalancedStoreOperations.updateQuantity(blob`orderItem.getProductId()`Integer.parseInt(request.getParameter("orderitem_" + orderItem.getProductId())));" is 159.,144
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.webui.servlet,CartServlet,handleGETRequest,Long Statement,The length of the statement "request.setAttribute("CategoryList"`LoadBalancedCRUDOperations.getEntities(Service.PERSISTENCE`"categories"`Category.class`-1`-1));" is 131.,57
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.webui.servlet,CartServlet,handleGETRequest,Magic Number,The method contains a magic number: 3,57
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.webui.servlet,CartServlet,handleGETRequest,Magic Number,The method contains a magic number: 3,57
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.webui.servlet,CategoryServlet,handleGETRequest,Long Statement,The length of the statement "int products=Integer.parseInt(ServiceLoadBalancer.loadBalanceRESTOperation(Service.PERSISTENCE`"products"`Product.class`client -> ResponseWrapper.wrap(HttpWrapper.wrap(client.getEndpointTarget().path("count").path(String.valueOf(categoryID))).get()).readEntity(String.class)));" is 277.,58
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.webui.servlet,CategoryServlet,handleGETRequest,Long Statement,The length of the statement "List<Product> productlist=LoadBalancedCRUDOperations.getEntities(Service.PERSISTENCE`"products"`Product.class`"category"`categoryID`(page - 1) * numberProducts`numberProducts);" is 176.,58
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.webui.servlet,CategoryServlet,handleGETRequest,Long Statement,The length of the statement "request.setAttribute("CategoryList"`LoadBalancedCRUDOperations.getEntities(Service.PERSISTENCE`"categories"`Category.class`-1`-1));" is 131.,58
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.webui.servlet,CategoryServlet,handlePOSTRequest,Complex Conditional,The conditional expression request.getParameter("number") != null && request.getParameter("page") != null && request.getParameter("category") != null is complex.,120
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.webui.servlet,CategoryServlet,handlePOSTRequest,Long Statement,The length of the statement "if (request.getParameter("number") != null && request.getParameter("page") != null && request.getParameter("category") != null) {" is 129.,120
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.webui.servlet,CategoryServlet,handlePOSTRequest,Long Statement,The length of the statement "redirect("/category?category=" + request.getParameter("category") + "&page="+ request.getParameter("page")`response`PRODUCTCOOKIE`request.getParameter("number"));" is 162.,120
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.webui.servlet,CategoryServlet,createNavigation,Complex Method,Cyclomatic complexity of the method is 8,137
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.webui.servlet,CategoryServlet,createNavigation,Magic Number,The method contains a magic number: 5,137
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.webui.servlet,CategoryServlet,createNavigation,Magic Number,The method contains a magic number: 2.0,137
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.webui.servlet,CategoryServlet,createNavigation,Magic Number,The method contains a magic number: 2.0,137
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.webui.servlet,DataBaseActionServlet,handleGETRequest,Long Statement,The length of the statement "Response resp=ServiceLoadBalancer.loadBalanceRESTOperation(Service.PERSISTENCE`"generatedb"`String.class`client -> client.getService().path(client.getApplicationURI()).path(client.getEndpointURI()).queryParam(PARAMETERS[0]`infos[0]).queryParam(PARAMETERS[1]`infos[1]).queryParam(PARAMETERS[2]`infos[2]).queryParam(PARAMETERS[3]`infos[3]).request(MediaType.TEXT_PLAIN).get());" is 375.,53
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.webui.servlet,DataBaseActionServlet,handleGETRequest,Long Statement,The length of the statement "status.stream().filter(r -> r != 200).forEach(r -> LOG.warn("An image provider service responded with " + r + " when regenerating images."));" is 141.,53
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.webui.servlet,DataBaseActionServlet,handleGETRequest,Long Statement,The length of the statement "List<Response> recResp=ServiceLoadBalancer.multicastRESTOperation(Service.RECOMMENDER`"train"`String.class`client -> client.getEndpointTarget().path("async").request(MediaType.TEXT_PLAIN).get());" is 195.,53
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.webui.servlet,DataBaseActionServlet,handleGETRequest,Long Statement,The length of the statement "recResp.stream().filter(r -> r.getStatus() != 200).forEach(r -> LOG.warn("A recommender service responded with " + r.getStatus() + " when retraining."));" is 153.,53
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.webui.servlet,DataBaseActionServlet,handleGETRequest,Magic Number,The method contains a magic number: 2,53
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.webui.servlet,DataBaseActionServlet,handleGETRequest,Magic Number,The method contains a magic number: 2,53
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.webui.servlet,DataBaseActionServlet,handleGETRequest,Magic Number,The method contains a magic number: 3,53
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.webui.servlet,DataBaseActionServlet,handleGETRequest,Magic Number,The method contains a magic number: 3,53
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.webui.servlet,DataBaseActionServlet,handleGETRequest,Magic Number,The method contains a magic number: 200,53
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.webui.servlet,DataBaseActionServlet,handleGETRequest,Magic Number,The method contains a magic number: 200,53
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.webui.servlet,DataBaseActionServlet,handleGETRequest,Magic Number,The method contains a magic number: 200,53
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.webui.servlet,ErrorServlet,handleGETRequest,Long Statement,The length of the statement "request.setAttribute("CategoryList"`LoadBalancedCRUDOperations.getEntities(Service.PERSISTENCE`"categories"`Category.class`-1`-1));" is 131.,48
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.webui.servlet,IndexServlet,handleGETRequest,Long Statement,The length of the statement "request.setAttribute("CategoryList"`LoadBalancedCRUDOperations.getEntities(Service.PERSISTENCE`"categories"`Category.class`-1`-1));" is 131.,48
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.webui.servlet,LoginActionServlet,handlePOSTRequest,Long Statement,The length of the statement "SessionBlob blob=LoadBalancedStoreOperations.login(getSessionBlob(request)`request.getParameter("username")`request.getParameter("password"));" is 142.,54
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.webui.servlet,LoginActionServlet,handlePOSTRequest,Long Statement,The length of the statement "if (request.getParameter("referer") != null && request.getParameter("referer").contains("tools.descartes.teastore.webui/cart")) {" is 129.,54
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.webui.servlet,LoginServlet,handleGETRequest,Long Statement,The length of the statement "request.setAttribute("CategoryList"`LoadBalancedCRUDOperations.getEntities(Service.PERSISTENCE`"categories"`Category.class`-1`-1));" is 131.,47
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.webui.servlet,OrderServlet,handlePOSTRequest,Long Statement,The length of the statement "request.setAttribute("CategoryList"`LoadBalancedCRUDOperations.getEntities(Service.PERSISTENCE`"categories"`Category.class`-1`-1));" is 131.,62
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.webui.servlet,ProductServlet,handleGETRequest,Long Statement,The length of the statement "request.setAttribute("CategoryList"`LoadBalancedCRUDOperations.getEntities(Service.PERSISTENCE`"categories"`Category.class`-1`-1));" is 131.,55
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.webui.servlet,ProductServlet,handleGETRequest,Long Statement,The length of the statement "request.setAttribute("productImages"`LoadBalancedImageOperations.getProductImages(ads`ImageSizePreset.RECOMMENDATION.getSize()));" is 129.,55
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.webui.servlet,ProductServlet,handleGETRequest,Magic Number,The method contains a magic number: 3,55
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.webui.servlet,ProductServlet,handleGETRequest,Magic Number,The method contains a magic number: 3,55
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.webui.servlet,ProfileServlet,handleGETRequest,Long Statement,The length of the statement "request.setAttribute("CategoryList"`LoadBalancedCRUDOperations.getEntities(Service.PERSISTENCE`"categories"`Category.class`-1`-1));" is 131.,52
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.webui.servlet,ProfileServlet,handleGETRequest,Long Statement,The length of the statement "request.setAttribute("User"`LoadBalancedCRUDOperations.getEntity(Service.PERSISTENCE`"users"`User.class`getSessionBlob(request).getUID()));" is 139.,52
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.webui.servlet,ProfileServlet,handleGETRequest,Long Statement,The length of the statement "request.setAttribute("Orders"`LoadBalancedCRUDOperations.getEntities(Service.PERSISTENCE`"orders"`Order.class`"user"`getSessionBlob(request).getUID()`-1`-1));" is 158.,52
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.webui.servlet,StatusServlet,handleGETRequest,Empty catch clause,The method has an empty catch block.,50
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.webui.servlet,StatusServlet,isDatabaseFinished,Long Statement,The length of the statement "String finished=ServiceLoadBalancer.loadBalanceRESTOperation(Service.PERSISTENCE`"generatedb"`String.class`client -> client.getEndpointTarget().path("finished").request(MediaType.TEXT_PLAIN).get().readEntity(String.class));" is 223.,89
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.webui.servlet,StatusServlet,isImageFinished,Long Statement,The length of the statement "List<String> finishedMessages=ServiceLoadBalancer.multicastRESTOperation(Service.IMAGE`"image"`String.class`client -> client.getEndpointTarget().path("finished").request(MediaType.APPLICATION_JSON).get().readEntity(String.class));" is 230.,104
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.webui.servlet,StatusServlet,isRecommenderFinished,Long Statement,The length of the statement "List<String> finishedMessages=ServiceLoadBalancer.multicastRESTOperation(Service.RECOMMENDER`"train"`String.class`client -> client.getEndpointTarget().path("isready").request(MediaType.TEXT_PLAIN).get().readEntity(String.class));" is 229.,123
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.webui.servlet.elhelper,ELHelperUtils,formatToPrettyDate,Long Statement,The length of the statement "return LocalDateTime.parse(isoFormattedDate`DateTimeFormatter.ISO_LOCAL_DATE_TIME).format(DateTimeFormatter.ofPattern("yyyy MM dd - HH:mm:ss"));" is 144.,39
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.webui.servlet.elhelper,ELHelperUtils,formatPriceInCents,Magic Number,The method contains a magic number: 100.0,49
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.webui.startup,WebuiStartup,contextInitialized,Long Statement,The length of the statement "ServiceLoadBalancer.preInitializeServiceLoadBalancers(Service.AUTH`Service.IMAGE`Service.PERSISTENCE`Service.RECOMMENDER);" is 122.,48
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.dockermemoryconfigurator,Configurator,main,Complex Conditional,The conditional expression cgroupkb != 0 && totalkb != 0 && cgroupkb < totalkb is complex.,26
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.dockermemoryconfigurator,Configurator,main,Magic Number,The method contains a magic number: 100L,26
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.dockermemoryconfigurator,Configurator,readTotalMemoryInKB,Magic Number,The method contains a magic number: 2,64
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.dockermemoryconfigurator,Configurator,readCGroupMemoryInKB,Magic Number,The method contains a magic number: 1024.0,95
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.kieker.probes,AbstractOperationExecutionWithParameterAspect,operation,Complex Conditional,The conditional expression flag != null && (flag.equals("true") || flag.equals("TRUE")) is complex.,47
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.kieker.probes,AbstractOperationExecutionWithParameterAspect,logWithParameter,Long Parameter List,The method has 10 parameters. ,118
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.kieker.probes,AbstractOperationExecutionWithParameterAspect,logWithParameter,Long Statement,The length of the statement "CTRLINST.newMonitoringRecord(new OperationExecutionWithParametersRecord(signature`sessionId`traceId`tin`tout`hostname`eoi`ess`names`values`returnType`returnValue));" is 164.,118
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.kieker.probes,AbstractOperationExecutionWithParameterAspect,parseObjectToString,Magic Number,The method contains a magic number: 500,154
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.kieker.probes,AbstractOperationExecutionWithParameterAspect,logWithoutParameters,Long Parameter List,The method has 10 parameters. ,180
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.kieker.probes.records,OperationExecutionWithParametersRecord,OperationExecutionWithParametersRecord,Long Parameter List,The method has 12 parameters. ,61
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.kieker.probes.records,OperationExecutionWithParametersRecord,equals,Complex Method,Cyclomatic complexity of the method is 21,159
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.kieker.rabbitmq,FileWriterDaemon,run,Magic Number,The method contains a magic number: 5000,20
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.kieker.rabbitmq,LogReaderDaemon,run,Long Statement,The length of the statement "configuration.setProperty(RawDataReaderPlugin.CONFIG_PROPERTY_READER`"kieker.analysis.plugin.reader.amqp.ChunkingAmqpReader");" is 126.,20
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.kieker.rabbitmq,LogReaderDaemon,run,Long Statement,The length of the statement "configuration.setProperty(RawDataReaderPlugin.CONFIG_PROPERTY_DESERIALIZER`"kieker.analysis.plugin.reader.newio.deserializer.BinaryDeserializer");" is 146.,20
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.kieker.rabbitmq,LogReaderStartup,contextDestroyed,Magic Number,The method contains a magic number: 10,48
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.kieker.rabbitmq,LogReaderStartup,stopFileWriter,Magic Number,The method contains a magic number: 10,63
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.kieker.rabbitmq,LogReaderStartup,contextInitialized,Magic Number,The method contains a magic number: 10,75
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.kieker.rabbitmq,LogReaderStartup,startFileWriter,Magic Number,The method contains a magic number: 10,87
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.registryclient.loadbalancers,EndpointClientCollection,updateClients,Long Statement,The length of the statement "clients.putIfAbsent(s`new RESTClient<T>(s.getHost() + ":" + s.getPort()+ "/"+ targetService.getServiceName()`RESTClient.DEFAULT_REST_APPLICATION`endpointURI`entityClass));" is 171.,72
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.registryclient.loadbalancers,ServiceLoadBalancer,preInitializeServiceLoadBalancers,Long Statement,The length of the statement "LOG.info("Pre-initializing client-side load balancer for target: " + getServiceLoadBalancer(service).targetService.getServiceName());" is 133.,72
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.registryclient.loadbalancers,ServiceLoadBalancer,getServiceLoadBalancer,Complex Conditional,The conditional expression serviceBalancer == null || serviceBalancer.serviceServers == null || serviceBalancer.serviceServers.isEmpty() is complex.,87
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.registryclient.loadbalancers,ServiceLoadBalancer,getServiceLoadBalancer,Complex Conditional,The conditional expression serviceBalancer == null || serviceBalancer.serviceServers == null || serviceBalancer.serviceServers.isEmpty() is complex.,98
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.registryclient.loadbalancers,ServiceLoadBalancer,updateLoadBalancer,Complex Conditional,The conditional expression (serviceServers.isEmpty() && newServers.isEmpty()) || (newServers.size() == serviceServers.size() && serviceServers.containsAll(newServers)) is complex.,157
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.registryclient.loadbalancers,ServiceLoadBalancer,updateLoadBalancer,Long Statement,The length of the statement "if ((serviceServers.isEmpty() && newServers.isEmpty()) || (newServers.size() == serviceServers.size() && serviceServers.containsAll(newServers))) {" is 147.,157
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.registryclient.loadbalancers,ServiceLoadBalancer,loadBalanceRESTOperation,Long Statement,The length of the statement "ServiceLoadBalancerResult<R> slbr=LoadBalancerCommand.<ServiceLoadBalancerResult<R>>builder().withLoadBalancer(loadBalancer).withRetryHandler(retryHandler).build().submit(server -> Observable.just(ServiceLoadBalancerResult.fromRESTOperation((RESTClient<T>)getEndpointClientCollection(endpointURI`entityClass).getRESTClient(server)`operation))).onErrorReturn(( Throwable e) -> {" is 377.,204
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.registryclient.loadbalancers,ServiceLoadBalancer,loadBalanceRESTOperation,Long Statement,The length of the statement "throw new LoadBalancerTimeoutException("Timout at endpoint: " + endpointURI + "` with target service: "+ targetService.getServiceName()`targetService);" is 151.,204
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.registryclient.loadbalancers,ServiceLoadBalancer,multicastRESTToOtherServiceInstances,Long Statement,The length of the statement "return getServiceLoadBalancer(RegistryClient.getClient().getMyService()).multicastRESTOperation(endpointURI`entityClass`operation`RegistryClient.getClient().getMyServiceInstanceServer());" is 187.,267
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.registryclient,RegistryClient,RegistryClient,Magic Number,The method contains a magic number: 8080,74
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.registryclient,RegistryClient,unregister,Long Statement,The length of the statement "LOG.warn("Could not unregister " + service.getServiceName() + " when it was shutting "+ "down` since it could not reach the registry. This can be caused by shutting "+ "down the registry before other services` but is in it self not a problem.");" is 245.,121
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.registryclient,RegistryClient,unregister,Magic Number,The method contains a magic number: 20,121
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.registryclient,RegistryClient,unregister,Magic Number,The method contains a magic number: 20,121
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.registryclient,RegistryClient,unregister,Magic Number,The method contains a magic number: 20,121
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.registryclient,RegistryClient,register,Long Identifier,The length of the field LOAD_BALANCER_REFRESH_INTERVAL_MS is 33.,149
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.registryclient,RegistryClient,register,Long Statement,The length of the statement "heartbeatScheduler.scheduleAtFixedRate(new RegistryClientHeartbeatDaemon(service`host)`0`HEARTBEAT_INTERVAL_MS`TimeUnit.MILLISECONDS);" is 134.,149
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.registryclient,RegistryClient,register,Long Statement,The length of the statement "loadBalancerUpdateScheduler.scheduleAtFixedRate(new LoadBalancerUpdaterDaemon()`1000`LOAD_BALANCER_REFRESH_INTERVAL_MS`TimeUnit.MILLISECONDS);" is 142.,149
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.registryclient,RegistryClient,register,Magic Number,The method contains a magic number: 1000,149
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.registryclient,RegistryClient,getServersForService,Long Statement,The length of the statement "Response response=getRESTClient(5000).target(registryRESTURL).path("/" + targetService.getServiceName() + "/").request(MediaType.APPLICATION_JSON).get();" is 153.,182
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.registryclient,RegistryClient,getServersForService,Magic Number,The method contains a magic number: 5000,182
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.registryclient,RegistryClient,registerOnce,Long Statement,The length of the statement "Response response=getRESTClient(5000).target(registryRESTURL).path(service.getServiceName()).path(server.toString()).request(MediaType.APPLICATION_JSON).put(Entity.text(""));" is 174.,231
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.registryclient,RegistryClient,registerOnce,Magic Number,The method contains a magic number: 5000,231
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.registryclient,RegistryClient,unregisterOnce,Long Statement,The length of the statement "Response response=getRESTClient(1000).target(registryRESTURL).path(service.getServiceName()).path(server.toString()).request(MediaType.APPLICATION_JSON).delete();" is 162.,253
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.registryclient,RegistryClient,unregisterOnce,Magic Number,The method contains a magic number: 1000,253
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.registryclient,StartupCallbackTask,run,Magic Number,The method contains a magic number: 1000,34
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.registryclient.rest,HttpWrapper,wrap,Long Statement,The length of the statement "return builder.header(HEADER_FIELD`Long.toString(traceId) + "`" + sessionId+ "`"+ Integer.toString(eoi)+ "`"+ Integer.toString(nextESS));" is 137.,36
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.registryclient.rest,LoadBalancedCRUDOperations,sendEntityForCreation,Long Statement,The length of the statement "return Optional.ofNullable(ServiceLoadBalancer.loadBalanceRESTOperation(service`endpointURI`entityClass`client -> NonBalancedCRUDOperations.sendEntityForCreation(client`entity))).orElse(-1L);" is 191.,37
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.registryclient.rest,LoadBalancedCRUDOperations,sendEntityForUpdate,Long Parameter List,The method has 5 parameters. ,66
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.registryclient.rest,LoadBalancedCRUDOperations,sendEntityForUpdate,Long Statement,The length of the statement "return Optional.ofNullable(ServiceLoadBalancer.loadBalanceRESTOperation(service`endpointURI`entityClass`client -> NonBalancedCRUDOperations.sendEntityForUpdate(client`id`entity))).orElse(false);" is 194.,66
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.registryclient.rest,LoadBalancedCRUDOperations,deleteEntity,Long Statement,The length of the statement "return Optional.ofNullable(ServiceLoadBalancer.loadBalanceRESTOperation(service`endpointURI`entityClass`client -> NonBalancedCRUDOperations.deleteEntity(client`id))).orElse(false);" is 180.,97
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.registryclient.rest,LoadBalancedCRUDOperations,getEntity,Long Statement,The length of the statement "return ServiceLoadBalancer.loadBalanceRESTOperation(service`endpointURI`entityClass`client -> NonBalancedCRUDOperations.getEntity(client`id));" is 142.,123
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.registryclient.rest,LoadBalancedCRUDOperations,getEntityWithProperties,Long Parameter List,The method has 5 parameters. ,149
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.registryclient.rest,LoadBalancedCRUDOperations,getEntityWithProperties,Long Statement,The length of the statement "return ServiceLoadBalancer.loadBalanceRESTOperation(service`endpointURI`entityClass`client -> NonBalancedCRUDOperations.getEntityWithProperty(client`propertyName`propertyValue));" is 178.,149
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.registryclient.rest,LoadBalancedCRUDOperations,getEntities,Long Parameter List,The method has 5 parameters. ,177
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.registryclient.rest,LoadBalancedCRUDOperations,getEntities,Long Statement,The length of the statement "return ServiceLoadBalancer.loadBalanceRESTOperation(service`endpointURI`entityClass`client -> NonBalancedCRUDOperations.getEntities(client`startIndex`limit));" is 158.,177
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.registryclient.rest,LoadBalancedCRUDOperations,getEntities,Long Parameter List,The method has 7 parameters. ,206
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.registryclient.rest,LoadBalancedCRUDOperations,getEntities,Long Statement,The length of the statement "return ServiceLoadBalancer.loadBalanceRESTOperation(service`endpointURI`entityClass`client -> NonBalancedCRUDOperations.getEntities(client`filterURI`filterId`startIndex`limit));" is 177.,206
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.registryclient.rest,LoadBalancedImageOperations,getProductImages,Long Statement,The length of the statement "Response r=ServiceLoadBalancer.loadBalanceRESTOperation(Service.IMAGE`"image"`HashMap.class`client -> ResponseWrapper.wrap(HttpWrapper.wrap(client.getEndpointTarget().path("getProductImages")).post(Entity.entity(img`MediaType.APPLICATION_JSON))));" is 247.,87
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.registryclient.rest,LoadBalancedImageOperations,getProductImages,Magic Number,The method contains a magic number: 400,87
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.registryclient.rest,LoadBalancedImageOperations,getWebImages,Long Statement,The length of the statement "Response r=ServiceLoadBalancer.loadBalanceRESTOperation(Service.IMAGE`"image"`HashMap.class`client -> ResponseWrapper.wrap(HttpWrapper.wrap(client.getEndpointTarget().path("getWebImages")).post(Entity.entity(img`MediaType.APPLICATION_JSON))));" is 243.,150
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.registryclient.rest,LoadBalancedImageOperations,getWebImages,Magic Number,The method contains a magic number: 400,150
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.registryclient.rest,LoadBalancedImageOperations,regenerateImages,Long Statement,The length of the statement "List<Response> r=ServiceLoadBalancer.multicastRESTOperation(Service.IMAGE`"image"`null`client -> client.getEndpointTarget().path("regenerateImages").request().get());" is 166.,194
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.registryclient.rest,LoadBalancedImageOperations,regenerateImages,Long Statement,The length of the statement "List<Integer> statuses=r.stream().filter(response -> response != null).map(response -> response.getStatus()).collect(Collectors.toList());" is 138.,194
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.registryclient.rest,LoadBalancedRecommenderOperations,getRecommendations,Long Statement,The length of the statement "Response r=ServiceLoadBalancer.loadBalanceRESTOperation(Service.RECOMMENDER`"recommend"`Category.class`client -> ResponseWrapper.wrap(HttpWrapper.wrap(client.getEndpointTarget().queryParam("uid"`uid)).post(Entity.entity(order`MediaType.APPLICATION_JSON))));" is 257.,30
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.registryclient.rest,LoadBalancedRecommenderOperations,getRecommendations,Magic Number,The method contains a magic number: 400,30
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.registryclient.rest,LoadBalancedStoreOperations,placeOrder,Long Parameter List,The method has 8 parameters. ,26
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.registryclient.rest,LoadBalancedStoreOperations,placeOrder,Long Statement,The length of the statement "Response r=ServiceLoadBalancer.loadBalanceRESTOperation(Service.AUTH`"useractions"`Product.class`client -> ResponseWrapper.wrap(HttpWrapper.wrap(client.getEndpointTarget().path("placeorder").queryParam("addressName"`addressName).queryParam("address1"`address1).queryParam("address2"`address2).queryParam("creditCardCompany"`creditCardCompany).queryParam("creditCardNumber"`creditCardNumber).queryParam("creditCardExpiryDate"`creditCardExpiryDate).queryParam("totalPriceInCents"`totalPriceInCents)).post(Entity.entity(blob`MediaType.APPLICATION_JSON)`Response.class)));" is 568.,26
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.registryclient.rest,LoadBalancedStoreOperations,login,Long Statement,The length of the statement "Response r=ServiceLoadBalancer.loadBalanceRESTOperation(Service.AUTH`"useractions"`Product.class`client -> ResponseWrapper.wrap(HttpWrapper.wrap(client.getEndpointTarget().path("login").queryParam("name"`name).queryParam("password"`password)).post(Entity.entity(blob`MediaType.APPLICATION_JSON)`Response.class)));" is 313.,69
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.registryclient.rest,LoadBalancedStoreOperations,logout,Long Statement,The length of the statement "Response r=ServiceLoadBalancer.loadBalanceRESTOperation(Service.AUTH`"useractions"`Product.class`client -> ResponseWrapper.wrap(HttpWrapper.wrap(client.getEndpointTarget().path("logout")).post(Entity.entity(blob`MediaType.APPLICATION_JSON)`Response.class)));" is 258.,96
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.registryclient.rest,LoadBalancedStoreOperations,isLoggedIn,Long Statement,The length of the statement "Response r=ServiceLoadBalancer.loadBalanceRESTOperation(Service.AUTH`"useractions"`Product.class`client -> ResponseWrapper.wrap(HttpWrapper.wrap(client.getEndpointTarget().path("isloggedin")).post(Entity.entity(blob`MediaType.APPLICATION_JSON)`Response.class)));" is 262.,117
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.registryclient.rest,LoadBalancedStoreOperations,addProductToCart,Long Statement,The length of the statement "Response r=ServiceLoadBalancer.loadBalanceRESTOperation(Service.AUTH`"cart"`Product.class`client -> ResponseWrapper.wrap(HttpWrapper.wrap(client.getEndpointTarget().path("add").path("" + pid)).post(Entity.entity(blob`MediaType.APPLICATION_JSON)`Response.class)));" is 263.,139
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.registryclient.rest,LoadBalancedStoreOperations,removeProductFromCart,Long Statement,The length of the statement "Response r=ServiceLoadBalancer.loadBalanceRESTOperation(Service.AUTH`"cart"`Product.class`client -> ResponseWrapper.wrap(HttpWrapper.wrap(client.getEndpointTarget().path("remove").path("" + pid)).post(Entity.entity(blob`MediaType.APPLICATION_JSON)`Response.class)));" is 266.,163
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.registryclient.rest,LoadBalancedStoreOperations,updateQuantity,Long Statement,The length of the statement "Response r=ServiceLoadBalancer.loadBalanceRESTOperation(Service.AUTH`"cart"`Product.class`client -> ResponseWrapper.wrap(HttpWrapper.wrap(client.getEndpointTarget().path("" + pid).queryParam("quantity"`quantity)).put(Entity.entity(blob`MediaType.APPLICATION_JSON)`Response.class)));" is 282.,186
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.registryclient.rest,NonBalancedCRUDOperations,sendEntityForCreation,Long Statement,The length of the statement "Response response=ResponseWrapper.wrap(HttpWrapper.wrap(client.getEndpointTarget()).post(Entity.entity(entity`MediaType.APPLICATION_JSON)`Response.class));" is 155.,48
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.registryclient.rest,NonBalancedCRUDOperations,sendEntityForCreation,Magic Number,The method contains a magic number: 201,48
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.registryclient.rest,NonBalancedCRUDOperations,sendEntityForUpdate,Long Statement,The length of the statement "Response response=ResponseWrapper.wrap(HttpWrapper.wrap(client.getEndpointTarget().path(String.valueOf(id))).put(Entity.entity(entity`MediaType.APPLICATION_JSON)`Response.class));" is 179.,91
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.registryclient.rest,NonBalancedCRUDOperations,sendEntityForUpdate,Magic Number,The method contains a magic number: 200,91
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.registryclient.rest,NonBalancedCRUDOperations,deleteEntity,Magic Number,The method contains a magic number: 200,130
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.registryclient.rest,NonBalancedCRUDOperations,getEntity,Magic Number,The method contains a magic number: 400,164
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.registryclient.rest,NonBalancedCRUDOperations,getEntities,Magic Number,The method contains a magic number: 200,201
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.registryclient.rest,NonBalancedCRUDOperations,getEntities,Long Parameter List,The method has 5 parameters. ,250
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.registryclient.rest,NonBalancedCRUDOperations,getEntities,Magic Number,The method contains a magic number: 200,250
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.registryclient.rest,NonBalancedCRUDOperations,getEntityWithProperty,Empty catch clause,The method has an empty catch block.,304
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.registryclient.rest,NonBalancedCRUDOperations,getEntityWithProperty,Magic Number,The method contains a magic number: 400,304
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.registryclient.rest,ResponseWrapper,wrap,Magic Number,The method contains a magic number: 2,35
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.registryclient.rest,ResponseWrapper,wrap,Magic Number,The method contains a magic number: 3,35
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.registryclient.rest,RestUtil,readEntityOrNull,Magic Number,The method contains a magic number: 200,45
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.registryclient.rest,RestUtil,readListThrowAndOrCloseOrder,Magic Number,The method contains a magic number: 200,77
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.registryclient.rest,RestUtil,readListThrowAndOrCloseProduct,Magic Number,The method contains a magic number: 200,98
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.registryclient.rest,TrackingFilter,doFilter,Complex Method,Cyclomatic complexity of the method is 8,51
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.registryclient.rest,TrackingFilter,doFilter,Long Statement,The length of the statement "wrappedResponse.addHeader(HEADER_FIELD`traceId + "`" + sessionId+ "`"+ (eoi)+ "`"+ Integer.toString(CF_REGISTRY.recallThreadLocalESS()));" is 137.,51
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.registryclient.rest,TrackingFilter,doFilter,Magic Number,The method contains a magic number: 2,51
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.registryclient.rest,TrackingFilter,doFilter,Magic Number,The method contains a magic number: 3,51
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.registryclient.tracing,Tracing,init,Long Statement,The length of the statement "return new JaegerTracer.Builder(service).withSampler(new ConstSampler(true)).withZipkinSharedRpcSpan().registerInjector(Format.Builtin.HTTP_HEADERS`new B3TextMapCodec.Builder().build()).registerExtractor(Format.Builtin.HTTP_HEADERS`new B3TextMapCodec.Builder().build()).build();" is 278.,34
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.registryclient.tracing,Tracing,inject,Long Statement,The length of the statement "GlobalTracer.get().inject(activeSpan.context()`Format.Builtin.HTTP_HEADERS`Tracing.requestBuilderCarrier(requestBuilder));" is 122.,47
+TeaStore-1.4.2-14648b7,tools.descartes.teastore.registryclient.util,AbstractCRUDEndpoint,create,Long Statement,The length of the statement "return Response.created(UriBuilder.fromResource(AbstractCRUDEndpoint.class).path(String.valueOf(id)).build()).entity(id).build();" is 129.,42

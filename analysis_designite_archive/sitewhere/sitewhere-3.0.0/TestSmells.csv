@@ -1,0 +1,15 @@
+Project Name,Package Name,Type Name,Method Name,Test Smell,Cause of the Smell
+sitewhere-3.0.0-fc6441d,com.sitewhere.sources,EventSourceTests,doJMSTest,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+sitewhere-3.0.0-fc6441d,com.sitewhere.sources,EventSourceTests,doMultithreadedJmsTest,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+sitewhere-3.0.0-fc6441d,com.sitewhere.sources,EventSourceTests,doActiveMqClientTest,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+sitewhere-3.0.0-fc6441d,com.sitewhere.sources,EventSourceTests,doActiveMqClientSend,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+sitewhere-3.0.0-fc6441d,com.sitewhere.sources,EventSourceTests,doAzureEventSourceSendTest,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+sitewhere-3.0.0-fc6441d,com.sitewhere.sources,EventSourceTests,doRabbitMQTest,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+sitewhere-3.0.0-fc6441d,com.sitewhere.sources,SocketTests,doInteractiveSocketTest,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+sitewhere-3.0.0-fc6441d,com.sitewhere.sources,SocketTests,doSocketTest,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+sitewhere-3.0.0-fc6441d,com.sitewhere.sources,SocketTests,doSocketTest2,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+sitewhere-3.0.0-fc6441d,com.sitewhere.sources,SocketTests,doOssTest,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+sitewhere-3.0.0-fc6441d,com.sitewhere.sources,SocketTests,doLoraTest,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+sitewhere-3.0.0-fc6441d,com.sitewhere.sources,SocketTests,doMqttTest,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+sitewhere-3.0.0-fc6441d,com.sitewhere.sources,SocketTests,doMqttTest,Empty test,The tool detected the smell in this test method because the test is empty.
+sitewhere-3.0.0-fc6441d,com.sitewhere.sources.websocket,WebSocketServerTest,startWebSocketServer,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.

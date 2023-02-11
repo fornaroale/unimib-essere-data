@@ -1,0 +1,4 @@
+Project Name,Package Name,Type Name,Testability Smell,Cause of the Smell
+qbike-3-a5d631e,club.newtech.qbike.order.domain.service,FsmService,Global State,The tool detected the smell in this class because the class declares global variables. The detected global variables are: UUID_KEY
+qbike-3-a5d631e,club.newtech.qbike.order.domain.service,OrderService,Global State,The tool detected the smell in this class because the class declares global variables. The detected global variables are: UUID_KEY
+qbike-3-a5d631e,club.newtech.qbike.order.domain.service,OrderService,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 8

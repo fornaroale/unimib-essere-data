@@ -1,0 +1,5 @@
+project,versionId,versionIndex,versionDate,edgeId,edgeLabel,from,fromId,to,toId
+qbike-2-66e65c8,37a30611-1084-47d4-931a-2e494d904a81,1,2023-02-11T21:34:44.334412500,3936,affects,cyclicDep,3933,club.newtech.qbike.intention.domain.core.root,782
+qbike-2-66e65c8,37a30611-1084-47d4-931a-2e494d904a81,1,2023-02-11T21:34:44.334412500,3937,affects,cyclicDep,3933,club.newtech.qbike.intention.domain.core.vo,774
+qbike-2-66e65c8,37a30611-1084-47d4-931a-2e494d904a81,1,2023-02-11T21:34:44.334412500,3942,affects,cyclicDep,3939,club.newtech.qbike.intention.domain.core.vo.Candidate,366
+qbike-2-66e65c8,37a30611-1084-47d4-931a-2e494d904a81,1,2023-02-11T21:34:44.334412500,3943,affects,cyclicDep,3939,club.newtech.qbike.intention.domain.core.root.Intention,333

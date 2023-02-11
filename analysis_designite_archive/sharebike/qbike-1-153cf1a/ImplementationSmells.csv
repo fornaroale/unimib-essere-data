@@ -1,0 +1,31 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+qbike-1-153cf1a,club.newtech.qbike.intention.controller,RibbonHystrixController,place,Long Statement,The length of the statement "intentionService.placeIntention(myIntention.getUserId()`myIntention.getStartLongitude()`myIntention.getStartLatitude()`myIntention.getDestLongitude()`myIntention.getDestLatitude());" is 181.,22
+qbike-1-153cf1a,club.newtech.qbike.intention.domain.service,IntentionService,placeIntention,Long Parameter List,The method has 5 parameters. ,24
+qbike-1-153cf1a,club.newtech.qbike.intention.domain.service,IntentionService,placeIntention,Long Statement,The length of the statement "Intention intention=new Intention().setStartLongitude(startLongitude).setStartLatitude(startLatitude).setDestLongitude(destLongitude).setDestLatitude(destLatitude).setCustomer(customer).setStatus(Status.Inited);" is 211.,24
+qbike-1-153cf1a,club.newtech.qbike.intention.domain.service,IntentionService,placeIntention,Long Statement,The length of the statement "String message=Stream.of(userId`startLongitude`startLatitude`destLongitude`destLatitude`intention.getMid()).map(String::valueOf).collect(Collectors.joining("|"));" is 162.,24
+qbike-1-153cf1a,club.newtech.qbike,SwaggerConfig,api,Long Statement,The length of the statement "return new Docket(DocumentationType.SWAGGER_2).select().apis(RequestHandlerSelectors.any()).paths(PathSelectors.any()).build();" is 127.,18
+qbike-1-153cf1a,club.newtech.qbike.order.domain.core.vo,IntentionVo,IntentionVo,Long Parameter List,The method has 7 parameters. ,25
+qbike-1-153cf1a,club.newtech.qbike.order.domain.service,OrderService,handleIntention,Long Statement,The length of the statement "Circle circle=new Circle(new Point(intentionVo.getStartLong()`intentionVo.getStartLat())`new Distance(500`RedisGeoCommands.DistanceUnit.METERS));" is 145.,50
+qbike-1-153cf1a,club.newtech.qbike.order.domain.service,OrderService,handleIntention,Long Statement,The length of the statement "IntentionVo newVo=new IntentionVo(intentionVo.getCustomerId()`intentionVo.getStartLong()`intentionVo.getStartLat()`intentionVo.getDestLong()`intentionVo.getDestLat()`intentionVo.getMid()`2000L);" is 194.,50
+qbike-1-153cf1a,club.newtech.qbike.order.domain.service,OrderService,handleIntention,Long Statement,The length of the statement "LOGGER.info("èŽ·å?–é™„è¿‘å?¸æœºä¸º{} ç›®å‰?çš„ç­–ç•¥ä¸ºå?–é¦–ä½?"`result.getContent().stream().map(x -> x.getContent().getName()).collect(Collectors.joining("`")));" is 164.,50
+qbike-1-153cf1a,club.newtech.qbike.order.domain.service,OrderService,handleIntention,Magic Number,The method contains a magic number: 500,50
+qbike-1-153cf1a,club.newtech.qbike.order.domain.service,OrderService,handleIntention,Magic Number,The method contains a magic number: 2000L,50
+qbike-1-153cf1a,club.newtech.qbike.order.domain.service,Receiver,receiveMessage,Long Statement,The length of the statement "IntentionVo intentionVo=new IntentionVo(values[0]`Double.parseDouble(values[1])`Double.parseDouble(values[2])`Double.parseDouble(values[3])`Double.parseDouble(values[4])`values[5]`2000L);" is 187.,15
+qbike-1-153cf1a,club.newtech.qbike.order.domain.service,Receiver,receiveMessage,Magic Number,The method contains a magic number: 6,15
+qbike-1-153cf1a,club.newtech.qbike.order.domain.service,Receiver,receiveMessage,Magic Number,The method contains a magic number: 2,15
+qbike-1-153cf1a,club.newtech.qbike.order.domain.service,Receiver,receiveMessage,Magic Number,The method contains a magic number: 3,15
+qbike-1-153cf1a,club.newtech.qbike.order.domain.service,Receiver,receiveMessage,Magic Number,The method contains a magic number: 4,15
+qbike-1-153cf1a,club.newtech.qbike.order.domain.service,Receiver,receiveMessage,Magic Number,The method contains a magic number: 5,15
+qbike-1-153cf1a,club.newtech.qbike.order.domain.service,Receiver,receiveMessage,Magic Number,The method contains a magic number: 2000L,15
+qbike-1-153cf1a,club.newtech.qbike.order.domain.service,Receiver,receivePositionUpdate,Magic Number,The method contains a magic number: 2,36
+qbike-1-153cf1a,club.newtech.qbike.order,SpringAsyncConfig,taskExecutor,Magic Number,The method contains a magic number: 10,12
+qbike-1-153cf1a,club.newtech.qbike.trip.domain.service,PositionService,updatePosition,Long Statement,The length of the statement "String message=Stream.of(String.valueOf(driverId)`String.valueOf(longitude)`String.valueOf(latitude)).collect(Collectors.joining("|"));" is 135.,34
+qbike-1-153cf1a,club.newtech.qbike.trip,SwaggerConfig,api,Long Statement,The length of the statement "return new Docket(DocumentationType.SWAGGER_2).select().apis(RequestHandlerSelectors.any()).paths(PathSelectors.any()).build();" is 127.,18
+qbike-1-153cf1a,club.newtech.qbike.client.api,PositionApi,positionUpdate,Long Statement,The length of the statement "String url=String.format("http://localhost:8050/qbike-trip/trips/updatePosition?driverId=%s&longitude=%s&latitude=%s"`driverId`longitude`latitude);" is 147.,12
+qbike-1-153cf1a,club.newtech.qbike.client,GeoPositionUpdateTest,positionUpdateClient,Magic Number,The method contains a magic number: 2,23
+qbike-1-153cf1a,club.newtech.qbike.client,UserRequestIntention,myNewIntention,Magic Number,The method contains a magic number: 1270,21
+qbike-1-153cf1a,club.newtech.qbike.client,UserRequestIntention,myNewIntention,Magic Number,The method contains a magic number: 118.81722069709,21
+qbike-1-153cf1a,club.newtech.qbike.client,UserRequestIntention,myNewIntention,Magic Number,The method contains a magic number: 32.007969136143,21
+qbike-1-153cf1a,club.newtech.qbike.client,UserRequestIntention,myNewIntention,Magic Number,The method contains a magic number: 118.71334176065,21
+qbike-1-153cf1a,club.newtech.qbike.client,UserRequestIntention,myNewIntention,Magic Number,The method contains a magic number: 32.012518207527,21
+qbike-1-153cf1a,club.newtech.qbike.uc,SwaggerConfig,api,Long Statement,The length of the statement "return new Docket(DocumentationType.SWAGGER_2).select().apis(RequestHandlerSelectors.any()).paths(PathSelectors.any()).build();" is 127.,18

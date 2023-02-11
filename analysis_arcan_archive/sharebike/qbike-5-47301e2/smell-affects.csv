@@ -1,0 +1,10 @@
+project,versionId,versionIndex,versionDate,edgeId,edgeLabel,from,fromId,to,toId
+qbike-5-47301e2,fd111c68-2ce2-4222-9fa0-c109d7863b42,1,2023-02-11T21:35:56.789858100,4404,affects,cyclicDep,4401,club.newtech.qbike.intention.domain.core.root,904
+qbike-5-47301e2,fd111c68-2ce2-4222-9fa0-c109d7863b42,1,2023-02-11T21:35:56.789858100,4405,affects,cyclicDep,4401,club.newtech.qbike.intention.domain.core.vo,896
+qbike-5-47301e2,fd111c68-2ce2-4222-9fa0-c109d7863b42,1,2023-02-11T21:35:56.789858100,4410,affects,cyclicDep,4407,club.newtech.qbike.order.domain.service,205
+qbike-5-47301e2,fd111c68-2ce2-4222-9fa0-c109d7863b42,1,2023-02-11T21:35:56.789858100,4411,affects,cyclicDep,4407,club.newtech.qbike.order.util,877
+qbike-5-47301e2,fd111c68-2ce2-4222-9fa0-c109d7863b42,1,2023-02-11T21:35:56.789858100,4412,affects,cyclicDep,4407,club.newtech.qbike.order.domain.exception,189
+qbike-5-47301e2,fd111c68-2ce2-4222-9fa0-c109d7863b42,1,2023-02-11T21:35:56.789858100,4417,affects,cyclicDep,4414,club.newtech.qbike.order.domain.service,205
+qbike-5-47301e2,fd111c68-2ce2-4222-9fa0-c109d7863b42,1,2023-02-11T21:35:56.789858100,4418,affects,cyclicDep,4414,club.newtech.qbike.order.util,877
+qbike-5-47301e2,fd111c68-2ce2-4222-9fa0-c109d7863b42,1,2023-02-11T21:35:56.789858100,4423,affects,cyclicDep,4420,club.newtech.qbike.intention.domain.core.vo.Candidate,345
+qbike-5-47301e2,fd111c68-2ce2-4222-9fa0-c109d7863b42,1,2023-02-11T21:35:56.789858100,4424,affects,cyclicDep,4420,club.newtech.qbike.intention.domain.core.root.Intention,321

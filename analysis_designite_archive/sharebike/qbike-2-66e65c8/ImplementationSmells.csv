@@ -1,0 +1,26 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+qbike-2-66e65c8,club.newtech.qbike.intention.controller,RibbonHystrixController,place,Long Statement,The length of the statement "intentionService.placeIntention(myIntention.getUserId()`myIntention.getStartLongitude()`myIntention.getStartLatitude()`myIntention.getDestLongitude()`myIntention.getDestLatitude());" is 181.,33
+qbike-2-66e65c8,club.newtech.qbike.intention.domain.core.root,Intention,confirmIntention,Magic Number,The method contains a magic number: 2,80
+qbike-2-66e65c8,club.newtech.qbike.intention.domain.core.root,Intention,confirmIntention,Magic Number,The method contains a magic number: 3,80
+qbike-2-66e65c8,club.newtech.qbike.intention.domain.service,IntentionService,placeIntention,Long Parameter List,The method has 5 parameters. ,63
+qbike-2-66e65c8,club.newtech.qbike.intention.domain.service,IntentionService,placeIntention,Long Statement,The length of the statement "Intention intention=new Intention().setStartLongitude(startLongitude).setStartLatitude(startLatitude).setDestLongitude(destLongitude).setDestLatitude(destLatitude).setCustomer(customer).setStatus(Status.Inited);" is 211.,63
+qbike-2-66e65c8,club.newtech.qbike.intention.domain.service,IntentionService,placeIntention,Magic Number,The method contains a magic number: 2L,63
+qbike-2-66e65c8,club.newtech.qbike.intention.domain.service,IntentionService,confirmIntention,Long Statement,The length of the statement "IntentionVo intentionVo=new IntentionVo().setIntentionId(intention.getMid()).setCustomerId(intention.getCustomer().getCustomerId()).setDestLat(intention.getDestLatitude()).setDestLong(intention.getDestLongitude()).setStartLong(intention.getStartLongitude()).setStartLat(intention.getStartLatitude()).setDriverId(intention.getSelectedDriver().getId());" is 351.,89
+qbike-2-66e65c8,club.newtech.qbike.intention.domain.service,IntentionService,retryMatch,Magic Number,The method contains a magic number: 5,164
+qbike-2-66e65c8,club.newtech.qbike.intention.domain.service,IntentionService,retryMatch,Magic Number,The method contains a magic number: 2,164
+qbike-2-66e65c8,club.newtech.qbike.intention.infrastructure,PositionApi,match,Long Statement,The length of the statement "ResponseEntity<Collection<DriverStatusVo>> matchReponse=restTemplate.exchange(String.format("http://qbike-trip/trips/match?longitude=%s&latitude=%s"`longitude`latitude)`HttpMethod.GET`null`new ParameterizedTypeReference<Collection<DriverStatusVo>>(){" is 250.,23
+qbike-2-66e65c8,club.newtech.qbike.intention,SpringAsyncConfig,taskExecutor,Magic Number,The method contains a magic number: 10,12
+qbike-2-66e65c8,club.newtech.qbike.intention,SwaggerConfig,api,Long Statement,The length of the statement "return new Docket(DocumentationType.SWAGGER_2).select().apis(RequestHandlerSelectors.any()).paths(PathSelectors.any()).build();" is 127.,18
+qbike-2-66e65c8,club.newtech.qbike.intention,IntentionTest,saveIntention,Magic Number,The method contains a magic number: 1032,26
+qbike-2-66e65c8,club.newtech.qbike.intention,IntentionTest,saveIntention,Magic Number,The method contains a magic number: 100,26
+qbike-2-66e65c8,club.newtech.qbike.order,SpringAsyncConfig,taskExecutor,Magic Number,The method contains a magic number: 10,12
+qbike-2-66e65c8,club.newtech.qbike.trip.domain.service,PositionService,matchDriver,Magic Number,The method contains a magic number: 500,77
+qbike-2-66e65c8,club.newtech.qbike.trip,SwaggerConfig,api,Long Statement,The length of the statement "return new Docket(DocumentationType.SWAGGER_2).select().apis(RequestHandlerSelectors.any()).paths(PathSelectors.any()).build();" is 127.,18
+qbike-2-66e65c8,club.newtech.qbike.client.api,PositionApi,positionUpdate,Long Statement,The length of the statement "String url=String.format("http://localhost:8050/qbike-trip/trips/updatePosition?driverId=%s&longitude=%s&latitude=%s"`driverId`longitude`latitude);" is 147.,12
+qbike-2-66e65c8,club.newtech.qbike.client,GeoPositionUpdateTest,positionUpdateClient,Magic Number,The method contains a magic number: 2,23
+qbike-2-66e65c8,club.newtech.qbike.client,UserRequestIntention,myNewIntention,Magic Number,The method contains a magic number: 1270,21
+qbike-2-66e65c8,club.newtech.qbike.client,UserRequestIntention,myNewIntention,Magic Number,The method contains a magic number: 118.81722069709,21
+qbike-2-66e65c8,club.newtech.qbike.client,UserRequestIntention,myNewIntention,Magic Number,The method contains a magic number: 32.007969136143,21
+qbike-2-66e65c8,club.newtech.qbike.client,UserRequestIntention,myNewIntention,Magic Number,The method contains a magic number: 118.71334176065,21
+qbike-2-66e65c8,club.newtech.qbike.client,UserRequestIntention,myNewIntention,Magic Number,The method contains a magic number: 32.012518207527,21
+qbike-2-66e65c8,club.newtech.qbike.uc,SwaggerConfig,api,Long Statement,The length of the statement "return new Docket(DocumentationType.SWAGGER_2).select().apis(RequestHandlerSelectors.any()).paths(PathSelectors.any()).build();" is 127.,18
