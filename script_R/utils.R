@@ -98,8 +98,17 @@ import_data_designite <- function(path) {
     ls <- list()
     if(files.num){
       for (j in 1:files.num){
-        if(files.name[j] == "ArchitectureSmells.csv" || files.name[j] == "TypeMetrics.csv"){
-          ls[[files.name[j]]] = read.csv(paste(full.dir,files.name[j],sep = "/"), header = TRUE)
+        if(files.name[j] == "ArchitectureSmells.csv" || files.name[j] == "TypeMetrics.csv" ||
+           files.name[j] == "ImplementationSmells.csv" || files.name[j] == "DesignSmells.csv"){
+          
+          readData <- NULL
+          if(files.name[j] == "DesignSmells.csv"){
+            readData <- read.csv(paste(full.dir,files.name[j],sep = "/"), header = TRUE, row.names=NULL)
+          } else {
+            readData <- read.csv(paste(full.dir,files.name[j],sep = "/"), header = TRUE)
+          }
+          
+          ls[[files.name[j]]] <- readData 
         }
       }
     }
@@ -119,19 +128,59 @@ extract_data_designite <- function(dataset){
   project.name <- names(dataset)[1]
   dataset <- dataset[[1]]
   
+  # extract number of Architectural Smells & count LOC
   number.of.AS <- as.numeric(nrow(dataset[["ArchitectureSmells.csv"]]))
   metrics      <- dataset[["TypeMetrics.csv"]]
   LOC          <- sum(metrics$LOC)
+  
+  # group smell by type
   AS.by.type   <- table(dataset[["ArchitectureSmells.csv"]][["Architecture.Smell"]])
   
+  # create data to return
   returnData        <- as.vector(AS.by.type)
   names(returnData) <- names(AS.by.type)
   
-  # Create data
+  # prepare return data
   data <- cbind(data.frame(number.of.AS, LOC),t(returnData))
   rownames(data) <- project.name
   
   return (data)
 }
 
+
+extract_cs_designite <- function(dataset){
+  project.name <- names(dataset)[1]
+  dataset <- dataset[[1]]
+  
+  # extract number of Design Smells & Implementation Smells
+  number.of.DS <- as.numeric(nrow(dataset[["DesignSmells.csv"]]))
+  number.of.IS <- as.numeric(nrow(dataset[["ImplementationSmells.csv"]]))
+  
+  # group smell by type
+  DS.by.type <- table(dataset[["DesignSmells.csv"]][["Type.Name"]])
+  IS.by.type <- table(dataset[["ImplementationSmells.csv"]][["Implementation.Smell"]])
+  
+  # create data to return for design smells
+  DS.returnData        <- as.vector(DS.by.type)
+  names(DS.returnData) <- names(DS.by.type)
+  
+  # create data to return for implementation smells
+  IS.returnData        <- as.vector(IS.by.type)
+  names(IS.returnData) <- names(IS.by.type)
+  
+  # prepare return data
+  DS.data <- data.frame(t(DS.returnData))
+  rownames(DS.data) <- project.name
+  IS.data <- data.frame(t(IS.returnData))
+  rownames(IS.data) <- project.name
+  
+  # calculate totals of design & implementation Smells
+  DS.data <- cbind(DS.data, Total = rowSums(DS.data))
+  IS.data <- cbind(IS.data, Total = rowSums(IS.data))
+  
+  # prepare return list (design smells & implementation smells)
+  list.data <- list(DS.data, IS.data)
+  
+  return (list.data)
+}
 
