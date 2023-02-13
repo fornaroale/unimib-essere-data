@@ -1,0 +1,58 @@
+Project Name,Package Name,Type Name,Method Name,Test Smell,Cause of the Smell
+trainticket-0.0.4-97fe13c,adminbasic.controller,AdminBasicInfoControllerTest,testHome,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+trainticket-0.0.4-97fe13c,adminorder.controller,AdminOrderControllerTest,testHome,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+trainticket-0.0.4-97fe13c,adminorder.controller,FoodControllerTest,testHome,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+trainticket-0.0.4-97fe13c,adminorder.service,FoodServiceImplTest,testGetAllFood,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+trainticket-0.0.4-97fe13c,adminorder.service,FoodServiceImplTest,testGetAllFood,Empty test,The tool detected the smell in this test method because the test is empty.
+trainticket-0.0.4-97fe13c,adminroute.controller,AdminRouteControllerTest,testHome,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+trainticket-0.0.4-97fe13c,admintravel.controller,AdminTravelControllerTest,testHome,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+trainticket-0.0.4-97fe13c,adminuser.controller,AdminUserControllerTest,testHome,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+trainticket-0.0.4-97fe13c,assurance.controller,AssuranceControllerTest,testHome,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+trainticket-0.0.4-97fe13c,auth.controller,AuthControllerTest,testGetHello,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+trainticket-0.0.4-97fe13c,auth.controller,UserControllerTest,testGetHello,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+trainticket-0.0.4-97fe13c,fdse.microservice.controller,BasicControllerTest,testHome,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+trainticket-0.0.4-97fe13c,fdse.microservice.controller,StationControllerTest,testHome,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+trainticket-0.0.4-97fe13c,cancel.controller,CancelControllerTest,testHome,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+trainticket-0.0.4-97fe13c,config.controller,ConfigControllerTest,testHome,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+trainticket-0.0.4-97fe13c,consignprice.controller,ConsignPriceControllerTest,testHome,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+trainticket-0.0.4-97fe13c,consign.controller,ConsignControllerTest,testHome,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+trainticket-0.0.4-97fe13c,contacts.controller,ContactsControllerTest,testHome,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+trainticket-0.0.4-97fe13c,execute.controller,ExecuteControlllerTest,testHome,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+trainticket-0.0.4-97fe13c,food.controller,FoodStoreControllerTest,testHome,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+trainticket-0.0.4-97fe13c,food.controller,TrainFoodControllerTest,testHome,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+trainticket-0.0.4-97fe13c,inside_payment.controller,InsidePaymentControllerTest,testHome,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+trainticket-0.0.4-97fe13c,inside_payment.service,InsidePaymentServiceImplTest,testInitPayment1,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+trainticket-0.0.4-97fe13c,inside_payment.service,InsidePaymentServiceImplTest,testInitPayment2,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+trainticket-0.0.4-97fe13c,notification.controller,NotificationControllerTest,testHome,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+trainticket-0.0.4-97fe13c,other.controller,OrderOtherControllerTest,testHome,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+trainticket-0.0.4-97fe13c,other.service,OrderOtherServiceImplTest,testInitOrder1,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+trainticket-0.0.4-97fe13c,other.service,OrderOtherServiceImplTest,testInitOrder2,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+trainticket-0.0.4-97fe13c,order.controller,OrderControllerTest,testHome,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+trainticket-0.0.4-97fe13c,order.service,OrderServiceImplTest,testInitOrder1,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+trainticket-0.0.4-97fe13c,order.service,OrderServiceImplTest,testInitOrder2,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+trainticket-0.0.4-97fe13c,com.trainticket.controller,PaymentControllerTest,testHome,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+trainticket-0.0.4-97fe13c,com.trainticket.service,PaymentServiceImplTest,testInitPayment1,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+trainticket-0.0.4-97fe13c,com.trainticket.service,PaymentServiceImplTest,testInitPayment2,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+trainticket-0.0.4-97fe13c,preserveOther.controller,PreserveOtherControllerTest,testHome,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+trainticket-0.0.4-97fe13c,preserve.controller,PreserveControllerTest,testHome,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+trainticket-0.0.4-97fe13c,price.controller,PriceControllerTest,testHome,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+trainticket-0.0.4-97fe13c,rebook.controller,RebookControllerTest,testHome,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+trainticket-0.0.4-97fe13c,plan.controller,RoutePlanControllerTest,testHome,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+trainticket-0.0.4-97fe13c,route.controller,RouteControllerTest,testHome,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+trainticket-0.0.4-97fe13c,seat.controller,SeatControllerTest,testHome,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+trainticket-0.0.4-97fe13c,security.controller,SecurityControllerTest,testHome,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+trainticket-0.0.4-97fe13c,ticketinfo.controller,TicketInfoControllerTest,testHome,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+trainticket-0.0.4-97fe13c,train.controller,TrainControllerTest,testHome,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+trainticket-0.0.4-97fe13c,travelplan.controller,TravelPlanControllerTest,testHome,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+trainticket-0.0.4-97fe13c,travel.controller,TravelControllerTest,testHome,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+trainticket-0.0.4-97fe13c,travel2.controller,Travel2ControllerTest,testHome,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+trainticket-0.0.4-97fe13c,(default package),TestServiceConfig,testConfig,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+trainticket-0.0.4-97fe13c,(default package),TestServicePrice,testPrice,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+trainticket-0.0.4-97fe13c,(default package),TestServiceSSO,testSSOAccount,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+trainticket-0.0.4-97fe13c,(default package),TestServiceStation,testStation,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+trainticket-0.0.4-97fe13c,(default package),TestServiceTrain,testTrain,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+trainticket-0.0.4-97fe13c,(default package),TestServiceTravel2,testTravel2,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+trainticket-0.0.4-97fe13c,user.controller,UserControllerTest,testHome,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+trainticket-0.0.4-97fe13c,user.service,UserServiceImplTest,testDeleteUserAuth,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+trainticket-0.0.4-97fe13c,verifycode.controller,VerifyCodeControllerTest,testImageCode,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+trainticket-0.0.4-97fe13c,verifycode.service,VerifyCodeServiceImplTest,testGetImageCode,Assertion roulette,The tool detected the smell in this test method because the test uses multiple assertion in the test. Total number of assertions in the test are: 2

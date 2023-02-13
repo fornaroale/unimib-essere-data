@@ -1,0 +1,12 @@
+Project Name,Package Name,Type Name,Testability Smell,Cause of the Smell
+trainticket-0.2.0-e5ae0c3,adminroute.controller,AdminRouteController,Global State,The tool detected the smell in this class because the class declares global variables. The detected global variables are: logger
+trainticket-0.2.0-e5ae0c3,adminroute.service,AdminRouteServiceImpl,Global State,The tool detected the smell in this class because the class declares global variables. The detected global variables are: logger
+trainticket-0.2.0-e5ae0c3,auth.constant,AuthConstant,Global State,The tool detected the smell in this class because the class declares global variables. The detected global variables are: ROLE_USER; ROLE_ADMIN
+trainticket-0.2.0-e5ae0c3,auth.constant,InfoConstant,Global State,The tool detected the smell in this class because the class declares global variables. The detected global variables are: DUPLICATE; USER_HAS_ALREADY_EXIST; PROPERTIES_CANNOT_BE_EMPTY_1; USER_IS_NOT_EXIST_2; PASSWORD_LEAST_CHAR_1; USER_NAME_NOT_FOUND_1; ID; USERNAME; PASSWORD; ROLES
+trainticket-0.2.0-e5ae0c3,delivery.config,Queues,Global State,The tool detected the smell in this class because the class declares global variables. The detected global variables are: queueName
+trainticket-0.2.0-e5ae0c3,foodsearch.config,Queues,Global State,The tool detected the smell in this class because the class declares global variables. The detected global variables are: queueName
+trainticket-0.2.0-e5ae0c3,notification.config,Queues,Global State,The tool detected the smell in this class because the class declares global variables. The detected global variables are: queueName
+trainticket-0.2.0-e5ae0c3,preserveOther.config,Queues,Global State,The tool detected the smell in this class because the class declares global variables. The detected global variables are: queueName
+trainticket-0.2.0-e5ae0c3,preserve.config,Queues,Global State,The tool detected the smell in this class because the class declares global variables. The detected global variables are: queueName
+trainticket-0.2.0-e5ae0c3,rebook.service,RebookServiceImpl,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 12
+trainticket-0.2.0-e5ae0c3,verifycode.service.impl,VerifyCodeServiceImpl,Global State,The tool detected the smell in this class because the class declares global variables. The detected global variables are: CAPTCHA_EXPIRED

@@ -101,13 +101,13 @@ import_data_designite <- function(path) {
         if(files.name[j] == "ArchitectureSmells.csv" || files.name[j] == "TypeMetrics.csv" ||
            files.name[j] == "ImplementationSmells.csv" || files.name[j] == "DesignSmells.csv"){
           
-          readData <- NULL
-          if(files.name[j] == "DesignSmells.csv"){
-            readData <- read.csv(paste(full.dir,files.name[j],sep = "/"), header = TRUE, row.names=NULL)
-          } else {
-            readData <- read.csv(paste(full.dir,files.name[j],sep = "/"), header = TRUE)
+          readData <- read.csv(paste(full.dir,files.name[j],sep = "/"), sep=",", header = TRUE, row.names=NULL)
+          
+          if(!is.na(readData$Project.Name[1]) && readData$Project.Name[1] != project.name){
+            names(readData)[1:(ncol(readData)-1)] <- names(readData)[2:ncol(readData)]
           }
           
+          readData <- readData[grep(project.name, readData$Project.Name),]
           ls[[files.name[j]]] <- readData 
         }
       }
@@ -157,7 +157,7 @@ extract_cs_designite <- function(dataset){
   number.of.IS <- as.numeric(nrow(dataset[["ImplementationSmells.csv"]]))
   
   # group smell by type
-  DS.by.type <- table(dataset[["DesignSmells.csv"]][["Type.Name"]])
+  DS.by.type <- table(dataset[["DesignSmells.csv"]][["Design.Smell"]])
   IS.by.type <- table(dataset[["ImplementationSmells.csv"]][["Implementation.Smell"]])
   
   # create data to return for design smells

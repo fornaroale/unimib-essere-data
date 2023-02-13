@@ -1,0 +1,3 @@
+project,versionId,versionIndex,versionDate,edgeId,edgeLabel,from,fromId,to,toId
+trainticket-0.1.0-56b95d7,6b9b5012-0575-4fcf-be09-725683cbf3a8,1,2023-02-13T12:01:28.524423400,29173,affects,unstableDep,29170,user,5594
+trainticket-0.1.0-56b95d7,6b9b5012-0575-4fcf-be09-725683cbf3a8,1,2023-02-13T12:01:28.524423400,29182,affects,unstableDep,29179,auth,3930

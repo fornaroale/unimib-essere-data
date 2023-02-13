@@ -56,11 +56,12 @@ designite.ds = dplyr::bind_rows(designite.ds1,
                                 designite.ds4,
                                 designite.ds5)
 designite.ds[is.na(designite.ds)] <- 0
+designite.ds
 
 # Compute statistics of architectural smells
 compute_metrics_statistics(designite.ds)
 
-# Create report of design and implementation smells
+# Create report of design smells
 designite.cs.ds1 = extract_cs_designite(designite.data[1])
 designite.cs.ds2 = extract_cs_designite(designite.data[2])
 designite.cs.ds3 = extract_cs_designite(designite.data[3])
@@ -73,6 +74,10 @@ designite.cs.ds.design = dplyr::bind_rows(designite.cs.ds1[1],
                                           designite.cs.ds5[1])
 designite.cs.ds.design <- designite.cs.ds.design %>% relocate(Total, .after = last_col())
 designite.cs.ds.design[is.na(designite.cs.ds.design)] <- 0
+designite.cs.ds.design["Total" ,] <- colSums(designite.cs.ds.design)
+designite.cs.ds.design
+
+# Create report of implementation smells
 designite.cs.ds.impl   = dplyr::bind_rows(designite.cs.ds1[2], 
                                           designite.cs.ds2[2],
                                           designite.cs.ds3[2],
@@ -80,5 +85,5 @@ designite.cs.ds.impl   = dplyr::bind_rows(designite.cs.ds1[2],
                                           designite.cs.ds5[2])
 designite.cs.ds.impl <- designite.cs.ds.impl %>% relocate(Total, .after = last_col())
 designite.cs.ds.impl[is.na(designite.cs.ds.impl)] <- 0
-
-
+designite.cs.ds.impl["Total" ,] <- colSums(designite.cs.ds.impl)
+designite.cs.ds.impl

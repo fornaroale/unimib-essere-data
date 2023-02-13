@@ -1,0 +1,5 @@
+Project Name,Package Name,Type Name,Testability Smell,Cause of the Smell
+trainticket-0.0.4-97fe13c,auth.constant,AuthConstant,Global State,The tool detected the smell in this class because the class declares global variables. The detected global variables are: ROLE_USER; ROLE_ADMIN
+trainticket-0.0.4-97fe13c,auth.constant,InfoConstant,Global State,The tool detected the smell in this class because the class declares global variables. The detected global variables are: DUPLICATE; USER_HAS_ALREADY_EXIST; PROPERTIES_CANNOT_BE_EMPTY_1; USER_IS_NOT_EXIST_2; PASSWORD_LEAST_CHAR_1; USER_NAME_NOT_FOUND_1; ID; USERNAME; PASSWORD; ROLES
+trainticket-0.0.4-97fe13c,rebook.service,RebookServiceImpl,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 12
+trainticket-0.0.4-97fe13c,verifycode.service.impl,VerifyCodeServiceImpl,Global State,The tool detected the smell in this class because the class declares global variables. The detected global variables are: CAPTCHA_EXPIRED
