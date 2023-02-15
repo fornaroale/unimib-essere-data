@@ -2,4 +2,4 @@ scanners:
 - startDate: '0001-01-01'
   endDate: '9999-01-01'
   include: ['ts-*/**', 'spring-*/**', 'ms-*/**']
-  exclude: ['{**/src,src}/test/**', '*testing/**', '*-test*/**', test/**, '*examples/**']
+  exclude: ['{**/src,src}/test/**', '*testing/**', '*-test*/**', 'test/**', '*examples/**']

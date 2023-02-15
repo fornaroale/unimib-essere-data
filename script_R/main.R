@@ -1,7 +1,10 @@
-library(dplyr)
+
 rm(list = ls())
 base.dir <- "C:\\Users\\ale\\Desktop\\WDIR_PUB\\script_R\\"
 setwd(base.dir)
+
+library(dplyr)
+library(Kendall)
 
 # --> Import sources
 source("utils.R")
@@ -33,6 +36,15 @@ arcan.ds[is.na(arcan.ds)] <- 0
 # Compute statistics of architectural smells
 compute_metrics_statistics(arcan.ds)
 
+# Run Mann-Kendall on arc. smells computed by Arcan
+for (metric in names(arcan.ds)) {
+  if(metric != "number.of.AS" & metric != "LOC"){
+    metric.values <- data.frame(arcan.ds[[metric]])
+    names(metric.values) <- metric
+    print(metric)
+    print(MannKendall(metric.values[,1]))
+  }
+}
 
 # ------------------------------
 # --> DesigniteJava analysis
@@ -61,6 +73,16 @@ designite.ds
 # Compute statistics of architectural smells
 compute_metrics_statistics(designite.ds)
 
+# Run Mann-Kendall on arc. smells computed by Designite
+for (metric in names(designite.ds)) {
+  if(metric != "number.of.AS" & metric != "LOC"){
+    metric.values <- data.frame(designite.ds[[metric]])
+    names(metric.values) <- metric
+    print(metric)
+    print(MannKendall(metric.values[,1]))
+  }
+}
+
 # Create report of design smells
 designite.cs.ds1 = extract_cs_designite(designite.data[1])
 designite.cs.ds2 = extract_cs_designite(designite.data[2])
@@ -87,3 +109,5 @@ designite.cs.ds.impl <- designite.cs.ds.impl %>% relocate(Total, .after = last_c
 designite.cs.ds.impl[is.na(designite.cs.ds.impl)] <- 0
 designite.cs.ds.impl["Total" ,] <- colSums(designite.cs.ds.impl)
 designite.cs.ds.impl
+
+
