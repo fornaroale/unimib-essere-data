@@ -74,12 +74,12 @@ designite.ds
 compute_metrics_statistics(designite.ds)
 
 # Run Mann-Kendall on arc. smells computed by Designite
-for (metric in names(designite.ds)) {
-  if(metric != "number.of.AS" & metric != "LOC"){
-    metric.values <- data.frame(designite.ds[[metric]])
-    names(metric.values) <- metric
-    print(metric)
-    print(MannKendall(metric.values[,1]))
+for (smell in names(designite.ds)) {
+  if(smell != "number.of.AS" & smell != "LOC"){
+    smell.values <- data.frame(designite.ds[[smell]])
+    names(smell.values) <- smell
+    print(smell)
+    print(MannKendall(smell.values[,1]))
   }
 }
 
@@ -96,8 +96,19 @@ designite.cs.ds.design = dplyr::bind_rows(designite.cs.ds1[1],
                                           designite.cs.ds5[1])
 designite.cs.ds.design <- designite.cs.ds.design %>% relocate(Total, .after = last_col())
 designite.cs.ds.design[is.na(designite.cs.ds.design)] <- 0
+designite.cs.ds.design.mk <- designite.cs.ds.design
 designite.cs.ds.design["Total" ,] <- colSums(designite.cs.ds.design)
 designite.cs.ds.design
+
+# Run Mann-Kendall on design smells computed by Designite
+for (smell in names(designite.cs.ds.design.mk)) {
+  if(smell != "Total"){
+    smell.values <- data.frame(designite.cs.ds.design.mk[[smell]])
+    names(smell.values) <- smell
+    print(smell)
+    print(MannKendall(smell.values[,1]))
+  }
+}
 
 # Create report of implementation smells
 designite.cs.ds.impl   = dplyr::bind_rows(designite.cs.ds1[2], 
@@ -107,7 +118,17 @@ designite.cs.ds.impl   = dplyr::bind_rows(designite.cs.ds1[2],
                                           designite.cs.ds5[2])
 designite.cs.ds.impl <- designite.cs.ds.impl %>% relocate(Total, .after = last_col())
 designite.cs.ds.impl[is.na(designite.cs.ds.impl)] <- 0
+designite.cs.ds.impl.mk <- designite.cs.ds.impl
 designite.cs.ds.impl["Total" ,] <- colSums(designite.cs.ds.impl)
 designite.cs.ds.impl
 
+# Run Mann-Kendall on implementation smells computed by Designite
+for (smell in names(designite.cs.ds.impl.mk)) {
+  if(smell != "Total"){
+    smell.values <- data.frame(designite.cs.ds.impl.mk[[smell]])
+    names(smell.values) <- smell
+    print(smell)
+    print(MannKendall(smell.values[,1]))
+  }
+}
 
