@@ -1,0 +1,36 @@
+project,versionId,versionIndex,versionDate,AffectedElements,vertexId,vertexLabel
+sharebike,d2980e69b76077a089fd31d7dfd316711b3bc368,39,2017-12-09T01:53:36.000,"[club.newtech.qbike.intention.domain.core.vo, club.newtech.qbike.intention.domain.core.root]",4345,smell
+sharebike,d2980e69b76077a089fd31d7dfd316711b3bc368,39,2017-12-09T01:53:36.000,"[club.newtech.qbike.order.domain.exception, club.newtech.qbike.order.domain.service, club.newtech.qbike.order.util]",4351,smell
+sharebike,d2980e69b76077a089fd31d7dfd316711b3bc368,39,2017-12-09T01:53:36.000,"[club.newtech.qbike.intention.domain.core.vo.Candidate, club.newtech.qbike.intention.domain.core.root.Intention]",4358,smell
+sharebike,4c5c00bef21f34c1acfc725dafc7f2413376cdc6,42,2018-02-24T02:25:20.000,"[club.newtech.qbike.intention.domain.core.vo, club.newtech.qbike.intention.domain.core.root]",4467,smell
+sharebike,4c5c00bef21f34c1acfc725dafc7f2413376cdc6,42,2018-02-24T02:25:20.000,"[club.newtech.qbike.order.domain.exception, club.newtech.qbike.order.domain.service, club.newtech.qbike.order.util]",4473,smell
+sharebike,4c5c00bef21f34c1acfc725dafc7f2413376cdc6,42,2018-02-24T02:25:20.000,"[club.newtech.qbike.intention.domain.core.vo.Candidate, club.newtech.qbike.intention.domain.core.root.Intention]",4480,smell
+sharebike,efecd5e5c24c3dda018030ed3defe56899b1c0b5,43,2018-06-09T04:41:07.000,"[club.newtech.qbike.intention.domain.core.vo, club.newtech.qbike.intention.domain.core.root]",4541,smell
+sharebike,efecd5e5c24c3dda018030ed3defe56899b1c0b5,43,2018-06-09T04:41:07.000,"[club.newtech.qbike.order.domain.exception, club.newtech.qbike.order.domain.service, club.newtech.qbike.order.util]",4547,smell
+sharebike,efecd5e5c24c3dda018030ed3defe56899b1c0b5,43,2018-06-09T04:41:07.000,"[club.newtech.qbike.intention.domain.core.vo.Candidate, club.newtech.qbike.intention.domain.core.root.Intention]",4554,smell
+sharebike,68953d4a3d3c908faf9603c4f8360150907b6bc2,44,2018-06-19T11:35:47.000,"[club.newtech.qbike.intention.domain.core.vo, club.newtech.qbike.intention.domain.core.root]",4541,smell
+sharebike,68953d4a3d3c908faf9603c4f8360150907b6bc2,44,2018-06-19T11:35:47.000,"[club.newtech.qbike.order.domain.exception, club.newtech.qbike.order.domain.service, club.newtech.qbike.order.util]",4547,smell
+sharebike,68953d4a3d3c908faf9603c4f8360150907b6bc2,44,2018-06-19T11:35:47.000,"[club.newtech.qbike.intention.domain.core.vo.Candidate, club.newtech.qbike.intention.domain.core.root.Intention]",4554,smell
+sharebike,3f7904a408b397e7e2aeb9dfdec34c8288561a44,45,2018-06-22T09:12:28.000,"[club.newtech.qbike.intention.domain.core.vo, club.newtech.qbike.intention.domain.core.root]",4541,smell
+sharebike,3f7904a408b397e7e2aeb9dfdec34c8288561a44,45,2018-06-22T09:12:28.000,"[club.newtech.qbike.order.domain.exception, club.newtech.qbike.order.domain.service, club.newtech.qbike.order.util]",4547,smell
+sharebike,3f7904a408b397e7e2aeb9dfdec34c8288561a44,45,2018-06-22T09:12:28.000,"[club.newtech.qbike.intention.domain.core.vo.Candidate, club.newtech.qbike.intention.domain.core.root.Intention]",4554,smell
+sharebike,84a0d0c59ba6127b6d80ac936af6f9199500c26b,48,2018-06-25T13:00:39.000,"[club.newtech.qbike.intention.domain.core.vo, club.newtech.qbike.intention.domain.core.root]",4601,smell
+sharebike,84a0d0c59ba6127b6d80ac936af6f9199500c26b,48,2018-06-25T13:00:39.000,"[club.newtech.qbike.order.domain.exception, club.newtech.qbike.order.domain.service, club.newtech.qbike.order.util]",4607,smell
+sharebike,84a0d0c59ba6127b6d80ac936af6f9199500c26b,48,2018-06-25T13:00:39.000,"[club.newtech.qbike.order.domain.service, club.newtech.qbike.order.util]",4614,smell
+sharebike,84a0d0c59ba6127b6d80ac936af6f9199500c26b,48,2018-06-25T13:00:39.000,"[club.newtech.qbike.intention.domain.core.vo.Candidate, club.newtech.qbike.intention.domain.core.root.Intention]",4620,smell
+sharebike,1d6e0a1f3fd6cb7bca4f369625bf2b6a7d411568,54,2018-07-01T15:36:53.000,"[club.newtech.qbike.intention.domain.core.vo, club.newtech.qbike.intention.domain.core.root]",4473,smell
+sharebike,1d6e0a1f3fd6cb7bca4f369625bf2b6a7d411568,54,2018-07-01T15:36:53.000,"[club.newtech.qbike.order.domain.exception, club.newtech.qbike.order.domain.service, club.newtech.qbike.order.util]",4479,smell
+sharebike,1d6e0a1f3fd6cb7bca4f369625bf2b6a7d411568,54,2018-07-01T15:36:53.000,"[club.newtech.qbike.order.domain.service, club.newtech.qbike.order.util]",4486,smell
+sharebike,1d6e0a1f3fd6cb7bca4f369625bf2b6a7d411568,54,2018-07-01T15:36:53.000,"[club.newtech.qbike.intention.domain.core.vo.Candidate, club.newtech.qbike.intention.domain.core.root.Intention]",4492,smell
+sharebike,1d3748b318a5a92520afad3db88a2eb77a6c0c0e,56,2018-07-04T09:20:57.000,"[club.newtech.qbike.intention.domain.core.vo, club.newtech.qbike.intention.domain.core.root]",4399,smell
+sharebike,1d3748b318a5a92520afad3db88a2eb77a6c0c0e,56,2018-07-04T09:20:57.000,"[club.newtech.qbike.order.domain.exception, club.newtech.qbike.order.domain.service, club.newtech.qbike.order.util]",4405,smell
+sharebike,1d3748b318a5a92520afad3db88a2eb77a6c0c0e,56,2018-07-04T09:20:57.000,"[club.newtech.qbike.order.domain.service, club.newtech.qbike.order.util]",4412,smell
+sharebike,1d3748b318a5a92520afad3db88a2eb77a6c0c0e,56,2018-07-04T09:20:57.000,"[club.newtech.qbike.intention.domain.core.vo.Candidate, club.newtech.qbike.intention.domain.core.root.Intention]",4418,smell
+sharebike,ab60b72343d6e1bcce713ca318ef9d8cfc03a85e,60,2018-10-27T06:50:29.000,"[club.newtech.qbike.intention.domain.core.vo, club.newtech.qbike.intention.domain.core.root]",4601,smell
+sharebike,ab60b72343d6e1bcce713ca318ef9d8cfc03a85e,60,2018-10-27T06:50:29.000,"[club.newtech.qbike.order.domain.exception, club.newtech.qbike.order.domain.service, club.newtech.qbike.order.util]",4607,smell
+sharebike,ab60b72343d6e1bcce713ca318ef9d8cfc03a85e,60,2018-10-27T06:50:29.000,"[club.newtech.qbike.order.domain.service, club.newtech.qbike.order.util]",4614,smell
+sharebike,ab60b72343d6e1bcce713ca318ef9d8cfc03a85e,60,2018-10-27T06:50:29.000,"[club.newtech.qbike.intention.domain.core.vo.Candidate, club.newtech.qbike.intention.domain.core.root.Intention]",4620,smell
+sharebike,47301e2067b7d8f5614b2359a9934f4080367d2e,62,2019-01-03T11:47:28.000,"[club.newtech.qbike.intention.domain.core.vo, club.newtech.qbike.intention.domain.core.root]",4399,smell
+sharebike,47301e2067b7d8f5614b2359a9934f4080367d2e,62,2019-01-03T11:47:28.000,"[club.newtech.qbike.order.domain.exception, club.newtech.qbike.order.domain.service, club.newtech.qbike.order.util]",4405,smell
+sharebike,47301e2067b7d8f5614b2359a9934f4080367d2e,62,2019-01-03T11:47:28.000,"[club.newtech.qbike.order.domain.service, club.newtech.qbike.order.util]",4412,smell
+sharebike,47301e2067b7d8f5614b2359a9934f4080367d2e,62,2019-01-03T11:47:28.000,"[club.newtech.qbike.intention.domain.core.vo.Candidate, club.newtech.qbike.intention.domain.core.root.Intention]",4418,smell
