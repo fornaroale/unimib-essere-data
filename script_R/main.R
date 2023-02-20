@@ -5,6 +5,7 @@ setwd(base.dir)
 
 library(dplyr)
 library(Kendall)
+library(ggplot2)
 
 # --> Import sources
 source("utils.R")
@@ -122,7 +123,7 @@ designite.cs.ds.impl.mk <- designite.cs.ds.impl
 designite.cs.ds.impl["Total" ,] <- colSums(designite.cs.ds.impl)
 designite.cs.ds.impl
 
-# Run Mann-Kendall on implementation smells computed by Designite
+# Run Mann-Kendall on implementation smells detected by Designite
 for (smell in names(designite.cs.ds.impl.mk)) {
   if(smell != "Total"){
     smell.values <- data.frame(designite.cs.ds.impl.mk[[smell]])
@@ -132,3 +133,13 @@ for (smell in names(designite.cs.ds.impl.mk)) {
   }
 }
 
+# Plot the evolution of no. of implementation smells found by Designite
+plot_ImplSmells_evolution <- function(data){
+  data <- data %>% as.data.frame(row.names = 1:nrow(.))
+  plot.data <- data %>% subset(select=c("Total")) %>%
+    mutate(version=as.numeric(rownames(.)))
+  ggplot(plot.data, aes(x=version,y=Total)) + geom_line() +
+    geom_point() +
+    labs(x = "Version")
+}
+plot_ImplSmells_evolution(designite.cs.ds.impl[1:5,])
